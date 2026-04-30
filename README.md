@@ -47,10 +47,24 @@ By day I build and train **Graph Attention Networks**. By night I hunt vulnerabi
 
 **[ WEB BACKEND ]**
 
-![Django](https://img.shields.io/badge/django-0D0D0D?style=for-the-badge&logo=django&logoColor=00FFFF)
-![DjangoREST](https://img.shields.io/badge/DJANGO--REST-0D0D0D?style=for-the-badge&logo=django&logoColor=FF00FF)
 ![Laravel](https://img.shields.io/badge/laravel-0D0D0D?style=for-the-badge&logo=laravel&logoColor=FF2D20)
-![NodeJS](https://img.shields.io/badge/node.js-0D0D0D?style=for-the-badge&logo=node.js&logoColor=6DA55F)
+![.NET](https://img.shields.io/badge/.NET-0D0D0D?style=for-the-badge&logo=dotnet&logoColor=FF00FF)
+![GraphQL](https://img.shields.io/badge/GraphQL-0D0D0D?style=for-the-badge&logo=graphql&logoColor=FF00FF)
+![Actix](https://img.shields.io/badge/Actix_Web-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
+
+**[ BLOCKCHAIN & WEB3 ]**
+
+![Ethereum](https://img.shields.io/badge/Ethereum-0D0D0D?style=for-the-badge&logo=ethereum&logoColor=00FFFF)
+![Solidity](https://img.shields.io/badge/Solidity-0D0D0D?style=for-the-badge&logo=solidity&logoColor=FF00FF)
+![Web3.js](https://img.shields.io/badge/Web3.js-0D0D0D?style=for-the-badge&logo=web3dotjs&logoColor=FFE600)
+![Smart Contracts](https://img.shields.io/badge/Smart_Contracts-0D0D0D?style=for-the-badge&logo=chainlink&logoColor=00FFFF)
+
+**[ DEVOPS & CLOUD ]**
+
+![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=00FFFF)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0D0D0D?style=for-the-badge&logo=kubernetes&logoColor=FF00FF)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=FFE600)
+![Nginx](https://img.shields.io/badge/Nginx-0D0D0D?style=for-the-badge&logo=nginx&logoColor=00FF7F)
 
 **[ WEB FRONTEND ]**
 
@@ -70,8 +84,6 @@ By day I build and train **Graph Attention Networks**. By night I hunt vulnerabi
 
 **[ TOOLS & INFRASTRUCTURE ]**
 
-![.NET](https://img.shields.io/badge/.NET-0D0D0D?style=for-the-badge&logo=dotnet&logoColor=FF00FF)
-![GraphQL](https://img.shields.io/badge/GraphQL-0D0D0D?style=for-the-badge&logo=graphql&logoColor=FF00FF)
 ![Apache](https://img.shields.io/badge/apache-0D0D0D?style=for-the-badge&logo=apache&logoColor=FFE600)
 ![NPM](https://img.shields.io/badge/NPM-0D0D0D?style=for-the-badge&logo=npm&logoColor=FF0000)
 ![Cisco](https://img.shields.io/badge/cisco-0D0D0D?style=for-the-badge&logo=cisco&logoColor=00FFFF)
@@ -84,6 +96,7 @@ By day I build and train **Graph Attention Networks**. By night I hunt vulnerabi
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-0D0D0D?style=for-the-badge&logo=ubuntu&logoColor=E95420)
 ![Manjaro](https://img.shields.io/badge/Manjaro-0D0D0D?style=for-the-badge&logo=Manjaro&logoColor=00FF7F)
 ![Windows 11](https://img.shields.io/badge/Windows_11-0D0D0D?style=for-the-badge&logo=Windows%2011&logoColor=00FFFF)
+![Fedora](https://img.shields.io/badge/Fedora-0D0D0D?style=for-the-badge&logo=fedora&logoColor=00FFFF)
 
 ---
 
