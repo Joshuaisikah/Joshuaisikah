@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Growing Snake
 
 on:
   schedule:
@@ -13,11 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
+      - uses: actions/setup-python@v5
         with:
-          github_user_name: Joshuaisikah
-          outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=00FF41&color_dots=0D0D0D,003B00,006400,00A550,00FF41
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate growing snake SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: Joshuaisikah
+          OUTPUT_FILE: dist/snake-growing.svg
+        run: python generate_snake.py
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

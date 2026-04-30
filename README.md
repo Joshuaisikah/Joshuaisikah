@@ -216,8 +216,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <div align="center">
 
-![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-dark-mode-only)
-![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-light-mode-only)
+![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-growing.svg)
 
 </div>
 
