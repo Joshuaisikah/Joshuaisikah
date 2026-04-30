@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- CYBERPUNK HEADER -->
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=%E3%82%AB%E3%83%9F%E3%82%AB%E3%82%BC%E3%82%A8%20%7C%20Kamikazee&fontSize=48&fontColor=FFE600&animation=twinkling&fontAlignY=38&desc=%E7%A5%9E%E9%A2%A8%20%2F%2F%20SYSTEM%20ONLINE%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20CYBERSECURITY&descAlignY=55&descAlign=50&descColor=FF00FF)
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=%E3%82%AB%E3%83%9F%E3%82%AB%E3%82%BC%20%7C%20Kamikaze&fontSize=48&fontColor=FFE600&animation=twinkling&fontAlignY=38&desc=%E7%A5%9E%E9%A2%A8%20%2F%2F%20SYSTEM%20ONLINE%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20CYBERSECURITY&descAlignY=55&descAlign=50&descColor=FF00FF)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Primarily+writing+Rust+these+days...;%3E+Taming+Graph+Attention+Networks+by+day...;%3E+Cybersecurity+sleuth+on+Kali+Linux+by+night...;%3E+Wrestling+with+dynamic+programming+%26+IoT%2FFirmware;%3E+Building+with+.NET+and+C%2B%2B+just+for+kicks;%3E+Follow+the+white+rabbit...+%F0%9F%90%87)](https://git.io/typing-svg)
 
