@@ -172,8 +172,6 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 ![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-dark-mode-only)
 ![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-light-mode-only)
 
-> _Snake generates every 12h via GitHub Actions — [trigger it manually here](https://github.com/Joshuaisikah/Joshuaisikah/actions/workflows/snake.yml)_
-
 </div>
 
 ---
