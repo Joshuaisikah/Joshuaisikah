@@ -33,13 +33,13 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <div align="center">
 
-## `⚡ 技術スタック // TECH STACK`
+## `⚡ TECH STACK`
 
 ![](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,30&height=3)
 
 <br/>
 
-### `〔 言語 〕LANGUAGES`
+### `— LANGUAGES`
 
 [![Skills](https://skillicons.dev/icons?i=rust,py,ts,js,java,php,cs,cpp,c&theme=dark&perline=9)](https://skillicons.dev)
 
@@ -47,7 +47,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 ![](https://capsule-render.vercel.app/api?type=rect&color=0D0D0D&height=2)
 
-### `〔 機械学習 〕MACHINE LEARNING & AI`
+### `— MACHINE LEARNING & AI`
 
 [![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=9)](https://skillicons.dev)
 
@@ -59,7 +59,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <br/>
 
-### `〔 ウェブ 〕WEB BACKEND`
+### `— WEB BACKEND`
 
 [![Skills](https://skillicons.dev/icons?i=laravel,dotnet,graphql&theme=dark&perline=9)](https://skillicons.dev)
 
@@ -67,7 +67,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <br/>
 
-### `〔 ブロックチェーン 〕BLOCKCHAIN — RUST ONLY`
+### `— BLOCKCHAIN — RUST ONLY`
 
 <table>
   <tr>
@@ -92,19 +92,19 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <br/>
 
-### `〔 クラウド 〕DEVOPS & CLOUD`
+### `— DEVOPS & CLOUD`
 
 [![Skills](https://skillicons.dev/icons?i=docker,kubernetes,githubactions,nginx&theme=dark&perline=9)](https://skillicons.dev)
 
 <br/>
 
-### `〔 フロントエンド 〕WEB FRONTEND`
+### `— WEB FRONTEND`
 
 [![Skills](https://skillicons.dev/icons?i=react,tailwind,html,css,vite&theme=dark&perline=9)](https://skillicons.dev)
 
 <br/>
 
-### `〔 データベース 〕DATABASES`
+### `— DATABASES`
 
 [![Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite&theme=dark&perline=9)](https://skillicons.dev)
 
@@ -112,13 +112,13 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <br/>
 
-### `〔 OS 〕OPERATING SYSTEMS`
+### `— OPERATING SYSTEMS`
 
 [![Skills](https://skillicons.dev/icons?i=linux,arch,kali,ubuntu,fedora,manjaro,windows&theme=dark&perline=9)](https://skillicons.dev)
 
 <br/>
 
-### `〔 ツール 〕TOOLS & NETWORKING`
+### `— TOOLS & NETWORKING`
 
 [![Skills](https://skillicons.dev/icons?i=git,github,vscode&theme=dark&perline=9)](https://skillicons.dev)
 
@@ -169,7 +169,10 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <div align="center">
 
-![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg)
+![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-dark-mode-only)
+![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg#gh-light-mode-only)
+
+> _Snake generates every 12h via GitHub Actions — [trigger it manually here](https://github.com/Joshuaisikah/Joshuaisikah/actions/workflows/snake.yml)_
 
 </div>
 
