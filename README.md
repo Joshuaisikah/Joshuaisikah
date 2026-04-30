@@ -3,7 +3,7 @@
 <!-- CYBERPUNK HEADER -->
 ![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=JOSHUA%20ISIKA&fontSize=60&fontColor=FFE600&animation=fadeIn&fontAlignY=38&desc=SYSTEM%20ONLINE%20//%20FULL-STACK%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20CYBERSECURITY&descAlignY=55&descAlign=50&descColor=FF00FF)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Fluent+in+C%2B%2B%2C+C%23%2C+and+Java+%28with+a+strong+accent%29;%3E+Taming+Graph+Attention+Networks+by+day...;%3E+Cybersecurity+sleuth+on+Kali+Linux+by+night...;%3E+Wrestling+with+dynamic+programming+%26+IoT%2FFirmware;%3E+Building+with+.NET+and+C%2B%2B+just+for+kicks;%3E+Follow+the+white+rabbit...+%F0%9F%90%87)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Primarily+writing+Rust+these+days...;%3E+Taming+Graph+Attention+Networks+by+day...;%3E+Cybersecurity+sleuth+on+Kali+Linux+by+night...;%3E+Wrestling+with+dynamic+programming+%26+IoT%2FFirmware;%3E+Building+with+.NET+and+C%2B%2B+just+for+kicks;%3E+Follow+the+white+rabbit...+%F0%9F%90%87)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,9 +17,9 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-Tech enthusiast who speaks fluent **C++**, **C#**, and a bit of **Java** (with a strong accent). Currently wrestling with dynamic programming and uncovering the mysteries of **IoT & firmware**.
+Systems developer primarily writing **Rust**, with strong roots in **C++** and **C#**. Currently exploring **IoT & firmware** and grinding through dynamic programming challenges.
 
-Machine-learning explorer by day — taming **Graph Attention Networks**. Fearless cybersecurity sleuth by night — testing for vulnerabilities on **Kali Linux**. When not debugging, building with **.NET** and **C++** just for kicks.
+By day I build and train **Graph Attention Networks**. By night I hunt vulnerabilities on **Kali Linux**. When there's time left — low-level work in **Rust** and **.NET** just for the love of it.
 
 ---
 
