@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=00FFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=FF00FF&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=A855F7&descSize=18)
 
 <br/>
 
