@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- CYBERPUNK HEADER -->
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=JOSHUA%20ISIKA&fontSize=60&fontColor=FFE600&animation=fadeIn&fontAlignY=38&desc=SYSTEM%20ONLINE%20//%20FULL-STACK%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20MOBILE&descAlignY=55&descAlign=50&descColor=FF00FF)
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=JOSHUA%20ISIKA&fontSize=60&fontColor=FFE600&animation=fadeIn&fontAlignY=38&desc=SYSTEM%20ONLINE%20//%20FULL-STACK%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20CYBERSECURITY&descAlignY=55&descAlign=50&descColor=FF00FF)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Loading+tech+stack...+%5BDONE%5D;%3E+Systems+Programmer+%7C+Rust+%26+C%2B%2B;%3E+Full-Stack+Dev+%7C+Django+%7C+Laravel+%7C+React;%3E+ML+Engineer+%7C+TensorFlow+%7C+scikit-learn;%3E+Mobile+Dev+%7C+Flutter+%7C+Expo;%3E+Cybersecurity+%26+Networking+Enthusiast;%3E+All+systems+go.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Fluent+in+C%2B%2B%2C+C%23%2C+and+Java+%28with+a+strong+accent%29;%3E+Taming+Graph+Attention+Networks+by+day...;%3E+Cybersecurity+sleuth+on+Kali+Linux+by+night...;%3E+Wrestling+with+dynamic+programming+%26+IoT%2FFirmware;%3E+Building+with+.NET+and+C%2B%2B+just+for+kicks;%3E+Follow+the+white+rabbit...+%F0%9F%90%87)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,12 +12,14 @@
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║  DEVELOPER_ID : Joshuaisikah                                 ║
-║  SPECIALITY   : Full-Stack · Systems · ML · Mobile          ║
-║  STATUS       : Always building something                    ║
+║  SPECIALITY   : Systems · ML · Cybersecurity · IoT          ║
+║  STATUS       : Wrestling dynamic programming & firmware     ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-Software developer working across the full stack — from systems-level programming in **Rust** and **C++**, to building web apps with **Django**, **Laravel**, and **React**, training ML models with **TensorFlow**, and building mobile apps with **Flutter**. I also explore networking and cybersecurity on the side.
+Tech enthusiast who speaks fluent **C++**, **C#**, and a bit of **Java** (with a strong accent). Currently wrestling with dynamic programming and uncovering the mysteries of **IoT & firmware**.
+
+Machine-learning explorer by day — taming **Graph Attention Networks**. Fearless cybersecurity sleuth by night — testing for vulnerabilities on **Kali Linux**. When not debugging, building with **.NET** and **C++** just for kicks.
 
 ---
 
@@ -58,11 +60,6 @@ Software developer working across the full stack — from systems-level programm
 ![CSS3](https://img.shields.io/badge/css3-0D0D0D?style=for-the-badge&logo=css3&logoColor=FF00FF)
 ![Vite](https://img.shields.io/badge/vite-0D0D0D?style=for-the-badge&logo=vite&logoColor=646CFF)
 
-**[ MOBILE ]**
-
-![Flutter](https://img.shields.io/badge/Flutter-0D0D0D?style=for-the-badge&logo=Flutter&logoColor=00FFFF)
-![Expo](https://img.shields.io/badge/expo-0D0D0D?style=for-the-badge&logo=expo&logoColor=FFE600)
-
 **[ DATABASES ]**
 
 ![Postgres](https://img.shields.io/badge/postgres-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=00FFFF)
@@ -73,6 +70,7 @@ Software developer working across the full stack — from systems-level programm
 
 **[ TOOLS & INFRASTRUCTURE ]**
 
+![.NET](https://img.shields.io/badge/.NET-0D0D0D?style=for-the-badge&logo=dotnet&logoColor=FF00FF)
 ![GraphQL](https://img.shields.io/badge/GraphQL-0D0D0D?style=for-the-badge&logo=graphql&logoColor=FF00FF)
 ![Apache](https://img.shields.io/badge/apache-0D0D0D?style=for-the-badge&logo=apache&logoColor=FFE600)
 ![NPM](https://img.shields.io/badge/NPM-0D0D0D?style=for-the-badge&logo=npm&logoColor=FF0000)
@@ -116,6 +114,22 @@ Software developer working across the full stack — from systems-level programm
 <div align="center">
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=FFE600)
+
+</div>
+
+---
+
+---
+
+<div align="center">
+
+```
+Wake up, Neo...
+The Matrix has you...
+Follow the white rabbit. 🐇
+```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=1200&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Wake+up%2C+Neo...;%3E+The+Matrix+has+you...;%3E+Knock+knock%2C+Neo.;%3E+Do+you+want+to+know+what+the+Matrix+is%3F;%3E+You+take+the+blue+pill+—+the+story+ends.;%3E+You+take+the+red+pill+—+you+stay+in+Wonderland.;%3E+I+can+only+show+you+the+door.+You%27re+the+one+who+has+to+walk+through+it.;%3E+There+is+no+spoon.)](https://git.io/typing-svg)
 
 </div>
 
