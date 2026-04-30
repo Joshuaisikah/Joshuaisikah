@@ -1,10 +1,10 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=A855F7&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=カミカゼ%20%7C%20Kamikaze&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオトウキョウ%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=A855F7&descSize=18)
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=%3E_%20起動中...+Booting+system...;%3E_%20Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;%3E_%20Solana+%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3+developer...;%3E_%20Hunting+vulnerabilities+on+Kali+Linux...;%3E_%20Graph+Attention+Networks+training...;%3E_%20IoT+%26+Firmware+explorer...;%3E_%20Follow+the+white+rabbit+%F0%9F%90%87;%3E_%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%80%82+All+systems+go.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=%3E_+Booting+system...;%3E_+Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;%3E_+Solana+blockchain+developer...;%3E_+Hunting+vulnerabilities+on+Kali+Linux...;%3E_+Graph+Attention+Networks+training...;%3E_+IoT+%26+Firmware+explorer...;%3E_+Follow+the+white+rabbit+%F0%9F%90%87;%3E_+All+systems+go.)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,10 +12,10 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║  ID       :  Joshuaisikah  //  神風  //  Kamikaze                ║
-║  専門分野  :  Systems · Blockchain · ML · Cybersecurity           ║
-║  状態     :  Grinding IoT · Dynamic Programming · Rust APIs      ║
-║  所在地   :  ネオ東京 // The Matrix                               ║
+║  ID        :  Joshuaisikah  //  カミカゼ  //  Kamikaze           ║
+║  SPECIALTY :  Systems · Blockchain · ML · Cybersecurity          ║
+║  STATUS    :  Grinding IoT · Dynamic Programming · Rust APIs     ║
+║  LOCATION  :  ネオトウキョウ // The Matrix                        ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -187,7 +187,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 ---
 
-## `統計 // STATS`
+## `STATS`
 
 <div align="center">
 
@@ -202,7 +202,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 ---
 
-## `活動 // CONTRIBUTION ACTIVITY`
+## `ACTIVITY`
 
 <div align="center">
 
@@ -212,7 +212,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 ---
 
-## `蛇 // CONTRIBUTION SNAKE`
+## `ヘビ // SNAKE`
 
 <div align="center">
 
@@ -225,17 +225,17 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 <div align="center">
 
 ```
-> Wake up, Neo...        起きてください、ネオ...
-> The Matrix has you...  マトリックスはあなたを捕まえている...
-> Follow the white rabbit. 白いウサギを追え。 🐇
-> There is no spoon.     スプーンは存在しない。
+> Wake up, Neo...
+> The Matrix has you...
+> Follow the white rabbit. 🐇
+> There is no spoon.
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+You+take+the+blue+pill+%E2%80%94+the+story+ends%3B;%3E+You+take+the+red+pill+%E2%80%94+you+stay+in+Wonderland%3B;%3E+I+can+only+show+you+the+door...+%E3%83%89%E3%82%A2%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E3%81%93%E3%81%A8%E3%81%97%E3%81%8B%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%80%82;%3E+You%27re+the+one+who+has+to+walk+through+it.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+You+take+the+blue+pill+%E2%80%94+the+story+ends%3B;%3E+You+take+the+red+pill+%E2%80%94+you+stay+in+Wonderland%3B;%3E+I+can+only+show+you+the+door...;%3E+You%27re+the+one+who+has+to+walk+through+it.)](https://git.io/typing-svg)
 
 <br/>
 
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=神風%20%2F%2F%20システムオフライン&fontSize=20&fontColor=FF00FF&animation=twinkling&fontAlignY=65)
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=カミカゼ%20%2F%2F%20システムオフライン&fontSize=20&fontColor=A855F7&animation=twinkling&fontAlignY=65)
 
 [![](https://visitcount.itsvg.in/api?id=Joshuaisikah&label=PROFILE_VIEWS&color=12&icon=6&pretty=false)](https://visitcount.itsvg.in)
 

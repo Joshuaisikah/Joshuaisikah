@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Growing snake SVG generator — CSS @keyframes based.
-Each cell gets its own animation that flashes white (head), then green (body),
-then near-black (eaten) as the snake passes through.
+Each cell gets its own animation: base → white flash (head) → smooth
+green fade-in (swallow) → stable body → smooth dark fade-out (digested).
 """
 
 import os, sys, random, requests
@@ -12,28 +12,30 @@ TOKEN       = os.environ.get('GITHUB_TOKEN', '')
 OUTPUT_FILE = os.environ.get('OUTPUT_FILE', 'assets/snake-growing.svg')
 
 # ── Grid ──────────────────────────────────────────────────────────────────────
-CELL  = 12
-GAP   = 3
+CELL  = 10
+GAP   = 2
 STEP  = CELL + GAP
-MX    = 16
-MY    = 20
+MX    = 14
+MY    = 18
 COLS  = 53
 ROWS  = 7
 
 # ── Animation ─────────────────────────────────────────────────────────────────
-SPD          = 0.08   # seconds per step
-INIT_LEN     = 5
-MAX_LEN      = 30
-GROWTH_SCALE = 0.6
-SEED         = 42
+SPD            = 0.08   # seconds per step
+INIT_LEN       = 5
+MAX_LEN        = 22
+GROWTH_SCALE   = 0.5
+SEED           = 42
+FADE_IN_STEPS  = 5      # steps for white→green transition (swallow effect)
+FADE_OUT_STEPS = 4      # steps for green→dark fade (digested)
 
 # ── Palette ───────────────────────────────────────────────────────────────────
 BG     = '#0D0D0D'
 LEVELS = ['#0D1A0D', '#0D3B0D', '#1A6B1A', '#00A550', '#00FF41']
-HEAD   = '#FFFFFF'   # white head pops against green
+HEAD   = '#FFFFFF'   # white head
 BODY   = '#00FF41'   # neon green body
-EATEN  = '#060D06'   # near-black after eaten
-EPS    = 0.02        # % gap for "instant" CSS jump (≈ 0.005s)
+EATEN  = '#060D06'   # near-black after digested
+EPS    = 0.015       # % gap for "instant" base→head jump
 
 
 # ── GitHub API ────────────────────────────────────────────────────────────────
@@ -138,19 +140,18 @@ def level_color(count):
     return LEVELS[4]
 
 def pct(t, total):
-    """Convert time to CSS percentage string, clamped 0–100."""
+    """Convert time to CSS percentage, clamped 0–100."""
     return round(max(0.0, min(t / total * 100, 100.0)), 4)
 
 
 # ── SVG ───────────────────────────────────────────────────────────────────────
 
 def generate_svg(grid, path, states):
-    steps  = len(path)
-    T      = steps * SPD
-    W      = MX + COLS * STEP + MX
-    H      = MY + ROWS * STEP + MY
+    steps = len(path)
+    T     = steps * SPD
+    W     = MX + COLS * STEP + MX
+    H     = MY + ROWS * STEP + MY
 
-    # Precompute: when does each cell arrive/depart
     snake_sets = [set(map(tuple, s)) for s in states]
     arrive = {pos: k for k, pos in enumerate(path)}
     depart = {}
@@ -161,6 +162,10 @@ def generate_svg(grid, path, states):
                 dep = j
                 break
         depart[pos] = dep
+
+    # Precompute smooth fade window sizes (in percentage points)
+    fade_in_pct  = FADE_IN_STEPS  * SPD / T * 100
+    fade_out_pct = FADE_OUT_STEPS * SPD / T * 100
 
     css_rules = []
     rects     = []
@@ -183,30 +188,38 @@ def generate_svg(grid, path, states):
             k   = arrive[pos]
             dep = depart[pos]
 
-            # percentage keyframe positions
-            pa  = pct(k * SPD, T)           # head arrives
-            pb  = min(pa + EPS, pct((k+1)*SPD, T) - EPS)  # head leaves → body
-            pb  = max(pa + EPS, pb)
-            pd  = pct(dep * SPD, T)         # tail leaves → eaten
-            pde = min(pd + EPS, 99.99)
+            # Keyframe time percentages
+            pa     = pct(k * SPD, T)                          # head arrives (base→HEAD)
+            pa0    = max(0.0, pa - EPS)                       # just before, for instant jump
+            # End of white→green smooth transition
+            pb_end = min(pct((k + 1 + FADE_IN_STEPS) * SPD, T), 99.99)
+            # Start of green→dark fade (when tail leaves)
+            pd     = pct(dep * SPD, T)
+            # End of green→dark fade
+            pd_end = min(pd + fade_out_pct, 99.99)
 
-            # Build @keyframes rule
+            # Clamp pb_end so it doesn't bleed past pd
+            pb_end = min(pb_end, pd)
+
             if pa <= 0:
-                # cell is first — starts as head
                 if dep >= steps:
-                    kf = f"@keyframes {cname}{{0%{{fill:{HEAD}}}{pb}%,100%{{fill:{BODY}}}}}"
+                    # Starts as head, stays body forever
+                    kf = (f"@keyframes {cname}{{0%{{fill:{HEAD}}}"
+                          f"{pb_end:.4f}%,100%{{fill:{BODY}}}}}")
                 else:
-                    kf = (f"@keyframes {cname}{{0%{{fill:{HEAD}}}{pb}%,{pd}%{{fill:{BODY}}}"
-                          f"{pde}%,100%{{fill:{EATEN}}}}}")
+                    kf = (f"@keyframes {cname}{{0%{{fill:{HEAD}}}"
+                          f"{pb_end:.4f}%,{pd:.4f}%{{fill:{BODY}}}"
+                          f"{pd_end:.4f}%,100%{{fill:{EATEN}}}}}")
             else:
-                pa0 = max(0, pa - EPS)
                 if dep >= steps:
-                    kf = (f"@keyframes {cname}{{0%,{pa0}%{{fill:{base}}}"
-                          f"{pa}%{{fill:{HEAD}}}{pb}%,100%{{fill:{BODY}}}}}")
+                    kf = (f"@keyframes {cname}{{0%,{pa0:.4f}%{{fill:{base}}}"
+                          f"{pa:.4f}%{{fill:{HEAD}}}"
+                          f"{pb_end:.4f}%,100%{{fill:{BODY}}}}}")
                 else:
-                    kf = (f"@keyframes {cname}{{0%,{pa0}%{{fill:{base}}}"
-                          f"{pa}%{{fill:{HEAD}}}{pb}%,{pd}%{{fill:{BODY}}}"
-                          f"{pde}%,100%{{fill:{EATEN}}}}}")
+                    kf = (f"@keyframes {cname}{{0%,{pa0:.4f}%{{fill:{base}}}"
+                          f"{pa:.4f}%{{fill:{HEAD}}}"
+                          f"{pb_end:.4f}%,{pd:.4f}%{{fill:{BODY}}}"
+                          f"{pd_end:.4f}%,100%{{fill:{EATEN}}}}}")
 
             css_rules.append(kf)
             css_rules.append(
