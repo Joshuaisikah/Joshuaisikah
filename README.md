@@ -1,161 +1,206 @@
 <div align="center">
 
-<!-- CYBERPUNK HEADER -->
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&section=header&text=%E3%82%AB%E3%83%9F%E3%82%AB%E3%82%BC%20%7C%20Kamikaze&fontSize=48&fontColor=FFE600&animation=twinkling&fontAlignY=38&desc=%E7%A5%9E%E9%A2%A8%20%2F%2F%20SYSTEM%20ONLINE%20%7C%20SYSTEMS%20%7C%20ML%20%7C%20CYBERSECURITY&descAlignY=55&descAlign=50&descColor=FF00FF)
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=FFE600&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=FF00FF&descSize=18)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=20&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&lines=%3E+Initializing+developer+profile...;%3E+Primarily+writing+Rust+these+days...;%3E+Taming+Graph+Attention+Networks+by+day...;%3E+Cybersecurity+sleuth+on+Kali+Linux+by+night...;%3E+Wrestling+with+dynamic+programming+%26+IoT%2FFirmware;%3E+Building+with+.NET+and+C%2B%2B+just+for+kicks;%3E+Follow+the+white+rabbit...+%F0%9F%90%87)](https://git.io/typing-svg)
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=%3E_%20起動中...+Booting+system...;%3E_%20Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;%3E_%20Solana+%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3+developer...;%3E_%20Hunting+vulnerabilities+on+Kali+Linux...;%3E_%20Graph+Attention+Networks+training...;%3E_%20IoT+%26+Firmware+explorer...;%3E_%20Follow+the+white+rabbit+%F0%9F%90%87;%3E_%20%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%80%82+All+systems+go.)](https://git.io/typing-svg)
+
+</div>
+
+<br/>
+
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║  ID       :  Joshuaisikah  //  神風  //  Kamikaze                ║
+║  専門分野  :  Systems · Blockchain · ML · Cybersecurity           ║
+║  状態     :  Grinding IoT · Dynamic Programming · Rust APIs      ║
+║  所在地   :  ネオ東京 // The Matrix                               ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<div align="center">
+
+Systems developer primarily writing **Rust**, with strong roots in **C++** and **C#**.
+Exploring **IoT & firmware** and grinding dynamic programming challenges.
+Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali Linux** by night.
 
 </div>
 
 ---
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  DEVELOPER_ID : Joshuaisikah                                 ║
-║  SPECIALITY   : Systems · ML · Cybersecurity · IoT          ║
-║  STATUS       : Wrestling dynamic programming & firmware     ║
-╚══════════════════════════════════════════════════════════════╝
-```
+## `言語 // LANGUAGES`
 
-Systems developer primarily writing **Rust**, with strong roots in **C++** and **C#**. Currently exploring **IoT & firmware** and grinding through dynamic programming challenges.
+<div align="center">
 
-By day I build and train **Graph Attention Networks**. By night I hunt vulnerabilities on **Kali Linux**. When there's time left — low-level work in **Rust** and **.NET** just for the love of it.
+![Rust](https://img.shields.io/badge/Rust-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
+![Python](https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=FFE600)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=00FFFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=FFE600)
+![Java](https://img.shields.io/badge/Java-0D0D0D?style=for-the-badge&logo=openjdk&logoColor=FF00FF)
+![PHP](https://img.shields.io/badge/PHP-0D0D0D?style=for-the-badge&logo=php&logoColor=00FFFF)
+![C#](https://img.shields.io/badge/C%23-0D0D0D?style=for-the-badge&logo=csharp&logoColor=FF00FF)
+![C++](https://img.shields.io/badge/C++-0D0D0D?style=for-the-badge&logo=c%2B%2B&logoColor=00FFFF)
+![C](https://img.shields.io/badge/C-0D0D0D?style=for-the-badge&logo=c&logoColor=00FFFF)
 
----
+</div>
 
-## `> TECH_STACK.exe`
+## `機械学習 // MACHINE LEARNING`
 
-**[ LANGUAGES ]**
-
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=FFE600)
-![Python](https://img.shields.io/badge/python-0D0D0D?style=for-the-badge&logo=python&logoColor=FFE600)
-![TypeScript](https://img.shields.io/badge/typescript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=00FFFF)
-![JavaScript](https://img.shields.io/badge/javascript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=FFE600)
-![Java](https://img.shields.io/badge/java-0D0D0D?style=for-the-badge&logo=openjdk&logoColor=FF00FF)
-![PHP](https://img.shields.io/badge/php-0D0D0D?style=for-the-badge&logo=php&logoColor=00FFFF)
-![C#](https://img.shields.io/badge/c%23-0D0D0D?style=for-the-badge&logo=csharp&logoColor=FF00FF)
-![C++](https://img.shields.io/badge/c++-0D0D0D?style=for-the-badge&logo=c%2B%2B&logoColor=00FFFF)
-![C](https://img.shields.io/badge/c-0D0D0D?style=for-the-badge&logo=c&logoColor=00FFFF)
-
-**[ MACHINE LEARNING & DATA SCIENCE ]**
+<div align="center">
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-0D0D0D?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=for-the-badge&logo=scikit-learn&logoColor=FF00FF)
-![Pandas](https://img.shields.io/badge/pandas-0D0D0D?style=for-the-badge&logo=pandas&logoColor=00FFFF)
-![NumPy](https://img.shields.io/badge/numpy-0D0D0D?style=for-the-badge&logo=numpy&logoColor=00FFFF)
+![Pandas](https://img.shields.io/badge/Pandas-0D0D0D?style=for-the-badge&logo=pandas&logoColor=00FFFF)
+![NumPy](https://img.shields.io/badge/NumPy-0D0D0D?style=for-the-badge&logo=numpy&logoColor=00FFFF)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-0D0D0D?style=for-the-badge&logo=Matplotlib&logoColor=FFE600)
 
-**[ WEB BACKEND ]**
+</div>
 
-![Laravel](https://img.shields.io/badge/laravel-0D0D0D?style=for-the-badge&logo=laravel&logoColor=FF2D20)
+## `ウェブ // WEB BACKEND`
+
+<div align="center">
+
+![Laravel](https://img.shields.io/badge/Laravel-0D0D0D?style=for-the-badge&logo=laravel&logoColor=FF2D20)
 ![.NET](https://img.shields.io/badge/.NET-0D0D0D?style=for-the-badge&logo=dotnet&logoColor=FF00FF)
 ![GraphQL](https://img.shields.io/badge/GraphQL-0D0D0D?style=for-the-badge&logo=graphql&logoColor=FF00FF)
-![Actix](https://img.shields.io/badge/Actix_Web-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
+![Actix Web](https://img.shields.io/badge/Actix_Web-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
 
-**[ BLOCKCHAIN & WEB3 ]**
+</div>
+
+## `ブロックチェーン // BLOCKCHAIN`
+
+<div align="center">
 
 ![Solana](https://img.shields.io/badge/Solana-0D0D0D?style=for-the-badge&logo=solana&logoColor=00FFFF)
 ![Substrate](https://img.shields.io/badge/Substrate-0D0D0D?style=for-the-badge&logo=polkadot&logoColor=FF00FF)
 ![Anchor](https://img.shields.io/badge/Anchor_Framework-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
-![Near](https://img.shields.io/badge/NEAR_Protocol-0D0D0D?style=for-the-badge&logo=near&logoColor=00FF7F)
+![NEAR](https://img.shields.io/badge/NEAR_Protocol-0D0D0D?style=for-the-badge&logo=near&logoColor=00FF7F)
 
-**[ DEVOPS & CLOUD ]**
+</div>
+
+## `クラウド // DEVOPS & CLOUD`
+
+<div align="center">
 
 ![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=00FFFF)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0D0D0D?style=for-the-badge&logo=kubernetes&logoColor=FF00FF)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=FFE600)
 ![Nginx](https://img.shields.io/badge/Nginx-0D0D0D?style=for-the-badge&logo=nginx&logoColor=00FF7F)
 
-**[ WEB FRONTEND ]**
+</div>
 
-![React](https://img.shields.io/badge/react-0D0D0D?style=for-the-badge&logo=react&logoColor=00FFFF)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-0D0D0D?style=for-the-badge&logo=tailwind-css&logoColor=00FFFF)
-![HTML5](https://img.shields.io/badge/html5-0D0D0D?style=for-the-badge&logo=html5&logoColor=FFE600)
-![CSS3](https://img.shields.io/badge/css3-0D0D0D?style=for-the-badge&logo=css3&logoColor=FF00FF)
-![Vite](https://img.shields.io/badge/vite-0D0D0D?style=for-the-badge&logo=vite&logoColor=646CFF)
+## `フロントエンド // WEB FRONTEND`
 
-**[ DATABASES ]**
+<div align="center">
 
-![Postgres](https://img.shields.io/badge/postgres-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=00FFFF)
-![MySQL](https://img.shields.io/badge/mysql-0D0D0D?style=for-the-badge&logo=mysql&logoColor=FFE600)
+![React](https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=00FFFF)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-0D0D0D?style=for-the-badge&logo=tailwind-css&logoColor=00FFFF)
+![HTML5](https://img.shields.io/badge/HTML5-0D0D0D?style=for-the-badge&logo=html5&logoColor=FFE600)
+![CSS3](https://img.shields.io/badge/CSS3-0D0D0D?style=for-the-badge&logo=css3&logoColor=FF00FF)
+![Vite](https://img.shields.io/badge/Vite-0D0D0D?style=for-the-badge&logo=vite&logoColor=646CFF)
+
+</div>
+
+## `データベース // DATABASES`
+
+<div align="center">
+
+![Postgres](https://img.shields.io/badge/PostgreSQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=00FFFF)
+![MySQL](https://img.shields.io/badge/MySQL-0D0D0D?style=for-the-badge&logo=mysql&logoColor=FFE600)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0D0D0D?style=for-the-badge&logo=mongodb&logoColor=00FF7F)
 ![MariaDB](https://img.shields.io/badge/MariaDB-0D0D0D?style=for-the-badge&logo=mariadb&logoColor=FF00FF)
-![SQLite](https://img.shields.io/badge/sqlite-0D0D0D?style=for-the-badge&logo=sqlite&logoColor=00FFFF)
+![SQLite](https://img.shields.io/badge/SQLite-0D0D0D?style=for-the-badge&logo=sqlite&logoColor=00FFFF)
 
-**[ TOOLS & INFRASTRUCTURE ]**
+</div>
 
-![Apache](https://img.shields.io/badge/apache-0D0D0D?style=for-the-badge&logo=apache&logoColor=FFE600)
+## `ツール // TOOLS`
+
+<div align="center">
+
+![Apache](https://img.shields.io/badge/Apache-0D0D0D?style=for-the-badge&logo=apache&logoColor=FFE600)
 ![NPM](https://img.shields.io/badge/NPM-0D0D0D?style=for-the-badge&logo=npm&logoColor=FF0000)
-![Cisco](https://img.shields.io/badge/cisco-0D0D0D?style=for-the-badge&logo=cisco&logoColor=00FFFF)
+![Cisco](https://img.shields.io/badge/Cisco-0D0D0D?style=for-the-badge&logo=cisco&logoColor=00FFFF)
 
-**[ OPERATING SYSTEMS ]**
+</div>
+
+## `OS // オペレーティングシステム`
+
+<div align="center">
 
 ![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=FFE600)
 ![Arch](https://img.shields.io/badge/Arch_Linux-0D0D0D?style=for-the-badge&logo=arch-linux&logoColor=00FFFF)
-![Kali](https://img.shields.io/badge/Kali-0D0D0D?style=for-the-badge&logo=kalilinux&logoColor=FF00FF)
+![Kali](https://img.shields.io/badge/Kali_Linux-0D0D0D?style=for-the-badge&logo=kalilinux&logoColor=FF00FF)
+![Fedora](https://img.shields.io/badge/Fedora-0D0D0D?style=for-the-badge&logo=fedora&logoColor=00FFFF)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-0D0D0D?style=for-the-badge&logo=ubuntu&logoColor=E95420)
 ![Manjaro](https://img.shields.io/badge/Manjaro-0D0D0D?style=for-the-badge&logo=Manjaro&logoColor=00FF7F)
 ![Windows 11](https://img.shields.io/badge/Windows_11-0D0D0D?style=for-the-badge&logo=Windows%2011&logoColor=00FFFF)
-![Fedora](https://img.shields.io/badge/Fedora-0D0D0D?style=for-the-badge&logo=fedora&logoColor=00FFFF)
-
----
-
-## `> TROPHIES.log`
-
-<div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=Joshuaisikah&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
 </div>
 
 ---
 
-## `> STATS.db`
+## `トロフィー // TROPHIES`
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&cache_seconds=1800)
-![](https://streak-stats.demolab.com/?user=Joshuaisikah&theme=radical&hide_border=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&layout=compact&cache_seconds=1800)
+![](https://github-profile-trophy.vercel.app/?username=Joshuaisikah&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1)
 
 </div>
 
 ---
 
-## `> ACTIVITY.feed`
+## `統計 // STATS`
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=FFE600)
-
-</div>
-
----
-
----
-
-<div align="center">
-
-```
-Wake up, Neo...
-The Matrix has you...
-Follow the white rabbit. 🐇
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=1200&color=00FF41&center=true&vCenter=true&width=700&lines=%3E+Wake+up%2C+Neo...;%3E+The+Matrix+has+you...;%3E+Knock+knock%2C+Neo.;%3E+Do+you+want+to+know+what+the+Matrix+is%3F;%3E+You+take+the+blue+pill+—+the+story+ends.;%3E+You+take+the+red+pill+—+you+stay+in+Wonderland.;%3E+I+can+only+show+you+the+door.+You%27re+the+one+who+has+to+walk+through+it.;%3E+There+is+no+spoon.)](https://git.io/typing-svg)
-
-</div>
-
----
-
-<div align="center">
-
-### `> QUOTE_OF_THE_DAY`
-![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical)
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&cache_seconds=1800" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=Joshuaisikah&theme=radical&hide_border=true" />
 
 <br/>
 
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=100&section=footer)
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&layout=compact&cache_seconds=1800" />
+
+</div>
+
+---
+
+## `活動 // CONTRIBUTION ACTIVITY`
+
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=FFE600&bg_color=0D0D0D)
+
+</div>
+
+---
+
+## `蛇 // CONTRIBUTION SNAKE`
+
+<div align="center">
+
+![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-dark.svg)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+> Wake up, Neo...        起きてください、ネオ...
+> The Matrix has you...  マトリックスはあなたを捕まえている...
+> Follow the white rabbit. 白いウサギを追え。 🐇
+> There is no spoon.     スプーンは存在しない。
+```
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+You+take+the+blue+pill+%E2%80%94+the+story+ends%3B;%3E+You+take+the+red+pill+%E2%80%94+you+stay+in+Wonderland%3B;%3E+I+can+only+show+you+the+door...+%E3%83%89%E3%82%A2%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E3%81%93%E3%81%A8%E3%81%97%E3%81%8B%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84%E3%80%82;%3E+You%27re+the+one+who+has+to+walk+through+it.)](https://git.io/typing-svg)
+
+<br/>
+
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=神風%20%2F%2F%20システムオフライン&fontSize=20&fontColor=FF00FF&animation=twinkling&fontAlignY=65)
 
 [![](https://visitcount.itsvg.in/api?id=Joshuaisikah&label=PROFILE_VIEWS&color=12&icon=6&pretty=false)](https://visitcount.itsvg.in)
 
