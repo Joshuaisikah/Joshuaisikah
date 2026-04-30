@@ -151,7 +151,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=arch&theme=dark" width="50"/><br/><sub><b>Arch</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white" /><br/><sub><b>Kali Linux</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" width="50"/><br/><sub><b>Ubuntu</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=fedora&theme=dark" width="50"/><br/><sub><b>Fedora</b></sub></td>
+    <td align="center" width="90"><img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" /><br/><sub><b>Fedora</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white" /><br/><sub><b>Manjaro</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=windows&theme=dark" width="50"/><br/><sub><b>Windows 11</b></sub></td>
   </tr>
