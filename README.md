@@ -2,7 +2,6 @@
 
 I'm a software developer who works across the full stack — from systems-level programming in **Rust** and **C++** to building web apps with **Django**, **Laravel**, and **React**, and training ML models with **TensorFlow** and **scikit-learn**. I also build mobile apps with **Flutter** and explore networking and cybersecurity on the side.
 
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Portfolio-blue?style=for-the-badge&logo=vercel)](https://portfolio-joshuas-projects-fa5fee3a.vercel.app)
 
 ---
 
