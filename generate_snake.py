@@ -26,6 +26,7 @@ ROWS  = 7
 # ── Animation ─────────────────────────────────────────────────────────────────
 SPD          = 0.07   # seconds per step
 INIT_LEN     = 5
+MAX_LEN      = 30    # snake never grows beyond this
 GROWTH_SCALE = 0.6
 RANDOM_SEED  = 42     # reproducible random walk
 
@@ -142,7 +143,7 @@ def compute_states(grid, path):
         count = grid[col][row] if col < len(grid) and row < len(grid[col]) else 0
         snake = [(col, row)] + snake
         if count > 0:
-            target += max(1, int(count * GROWTH_SCALE))
+            target = min(MAX_LEN, target + max(1, int(count * GROWTH_SCALE)))
         while len(snake) > target:
             snake.pop()
         states.append(list(snake))
