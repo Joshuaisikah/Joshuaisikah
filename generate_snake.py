@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """
-Growing snake SVG generator for GitHub profile README.
-Snake takes a random walk through the contribution grid,
-growing longer each time it eats a contribution square.
+Growing snake SVG generator — CSS @keyframes based.
+Each cell gets its own animation that flashes white (head), then green (body),
+then near-black (eaten) as the snake passes through.
 """
 
-import os
-import sys
-import random
-import requests
+import os, sys, random, requests
 
 USERNAME    = os.environ.get('GITHUB_USERNAME', 'Joshuaisikah')
 TOKEN       = os.environ.get('GITHUB_TOKEN', '')
@@ -24,18 +21,19 @@ COLS  = 53
 ROWS  = 7
 
 # ── Animation ─────────────────────────────────────────────────────────────────
-SPD          = 0.07   # seconds per step
+SPD          = 0.08   # seconds per step
 INIT_LEN     = 5
-MAX_LEN      = 30    # snake never grows beyond this
+MAX_LEN      = 30
 GROWTH_SCALE = 0.6
-RANDOM_SEED  = 42     # reproducible random walk
+SEED         = 42
 
-# ── Cyberpunk palette ─────────────────────────────────────────────────────────
+# ── Palette ───────────────────────────────────────────────────────────────────
 BG     = '#0D0D0D'
 LEVELS = ['#0D1A0D', '#0D3B0D', '#1A6B1A', '#00A550', '#00FF41']
-HEAD   = '#FFE600'
-BODY   = ['#00FF41', '#00D936', '#00B82C', '#009622', '#007518']
-EATEN  = '#060D06'
+HEAD   = '#FFFFFF'   # white head pops against green
+BODY   = '#00FF41'   # neon green body
+EATEN  = '#060D06'   # near-black after eaten
+EPS    = 0.02        # % gap for "instant" CSS jump (≈ 0.005s)
 
 
 # ── GitHub API ────────────────────────────────────────────────────────────────
@@ -46,9 +44,7 @@ def fetch_contributions():
       user(login: $login) {
         contributionsCollection {
           contributionCalendar {
-            weeks {
-              contributionDays { contributionCount }
-            }
+            weeks { contributionDays { contributionCount } }
           }
         }
       }
@@ -61,67 +57,51 @@ def fetch_contributions():
         timeout=15,
     )
     if r.status_code != 200:
-        print(f"API error {r.status_code}: {r.text}", file=sys.stderr)
-        sys.exit(1)
-    data = r.json()
-    if 'errors' in data:
-        print(f"GraphQL error: {data['errors']}", file=sys.stderr)
-        sys.exit(1)
-    return data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+        print(f"API error {r.status_code}", file=sys.stderr); sys.exit(1)
+    d = r.json()
+    if 'errors' in d:
+        print(f"GraphQL: {d['errors']}", file=sys.stderr); sys.exit(1)
+    return d['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
 
+
+# ── Grid ──────────────────────────────────────────────────────────────────────
 
 def build_grid(weeks):
     grid = []
     for week in weeks:
         col = [d['contributionCount'] for d in week['contributionDays']]
-        while len(col) < ROWS:
-            col.append(0)
+        while len(col) < ROWS: col.append(0)
         grid.append(col)
-    # Pad to COLS wide
-    while len(grid) < COLS:
-        grid.append([0] * ROWS)
+    while len(grid) < COLS: grid.append([0] * ROWS)
     return grid[:COLS]
 
 
-# ── Random walk path ──────────────────────────────────────────────────────────
+# ── Random walk ───────────────────────────────────────────────────────────────
 
-def random_walk(grid):
-    """
-    Walk every cell exactly once using a space-filling random walk.
-    Falls back to scanning unvisited neighbours; backtracks if stuck.
-    Visits all COLS×ROWS cells.
-    """
-    rng = random.Random(RANDOM_SEED)
-    total = COLS * ROWS
+def random_walk():
+    """Space-filling random walk visiting every cell exactly once."""
+    rng = random.Random(SEED)
     visited = [[False] * ROWS for _ in range(COLS)]
-
-    def neighbours(c, r):
-        dirs = [(0,1),(0,-1),(1,0),(-1,0)]
-        rng.shuffle(dirs)
-        return [
-            (c+dc, r+dr)
-            for dc, dr in dirs
-            if 0 <= c+dc < COLS and 0 <= r+dr < ROWS
-        ]
-
-    # Start at top-left
-    path = [(0, 0)]
+    path, stack = [(0, 0)], [(0, 0)]
     visited[0][0] = True
-    stack = [(0, 0)]
 
-    while len(path) < total:
+    def nbrs(c, r):
+        ds = [(0,1),(0,-1),(1,0),(-1,0)]
+        rng.shuffle(ds)
+        return [(c+dc, r+dr) for dc,dr in ds
+                if 0 <= c+dc < COLS and 0 <= r+dr < ROWS]
+
+    while len(path) < COLS * ROWS:
         c, r = stack[-1]
-        unvisited = [(nc, nr) for nc, nr in neighbours(c, r) if not visited[nc][nr]]
-        if unvisited:
-            nc, nr = rng.choice(unvisited)
+        opts = [(nc,nr) for nc,nr in nbrs(c,r) if not visited[nc][nr]]
+        if opts:
+            nc, nr = rng.choice(opts)
             visited[nc][nr] = True
             path.append((nc, nr))
             stack.append((nc, nr))
         else:
-            # Backtrack
             stack.pop()
             if not stack:
-                # Find any unvisited cell and teleport (shouldn't happen often)
                 for ci in range(COLS):
                     for ri in range(ROWS):
                         if not visited[ci][ri]:
@@ -129,9 +109,7 @@ def random_walk(grid):
                             path.append((ci, ri))
                             stack.append((ci, ri))
                             break
-                    if stack:
-                        break
-
+                    if stack: break
     return path
 
 
@@ -150,7 +128,7 @@ def compute_states(grid, path):
     return states
 
 
-# ── SVG generation ────────────────────────────────────────────────────────────
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def level_color(count):
     if count == 0: return LEVELS[0]
@@ -159,21 +137,23 @@ def level_color(count):
     if count <= 8: return LEVELS[3]
     return LEVELS[4]
 
+def pct(t, total):
+    """Convert time to CSS percentage string, clamped 0–100."""
+    return round(max(0.0, min(t / total * 100, 100.0)), 4)
 
-def kt(t, total):
-    return f"{max(0.0, min(t / total, 1.0)):.5f}"
 
+# ── SVG ───────────────────────────────────────────────────────────────────────
 
 def generate_svg(grid, path, states):
-    steps = len(path)
-    T     = steps * SPD
-    W     = MX + COLS * STEP + MX
-    H     = MY + ROWS * STEP + MY
+    steps  = len(path)
+    T      = steps * SPD
+    W      = MX + COLS * STEP + MX
+    H      = MY + ROWS * STEP + MY
 
+    # Precompute: when does each cell arrive/depart
     snake_sets = [set(map(tuple, s)) for s in states]
-
-    arrive  = {pos: k for k, pos in enumerate(path)}
-    depart  = {}
+    arrive = {pos: k for k, pos in enumerate(path)}
+    depart = {}
     for k, pos in enumerate(path):
         dep = steps
         for j in range(k + 1, steps):
@@ -182,12 +162,8 @@ def generate_svg(grid, path, states):
                 break
         depart[pos] = dep
 
-    out = []
-    out.append(
-        f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'width="{W}" height="{H}" viewBox="0 0 {W} {H}">'
-    )
-    out.append(f'  <rect width="{W}" height="{H}" fill="{BG}" rx="8"/>')
+    css_rules = []
+    rects     = []
 
     for ci in range(COLS):
         col = grid[ci] if ci < len(grid) else [0] * ROWS
@@ -197,90 +173,80 @@ def generate_svg(grid, path, states):
             y     = MY + row * STEP
             pos   = (ci, row)
             base  = level_color(count)
+            cname = f"c{ci}x{row}"
 
             if pos not in arrive:
-                out.append(
-                    f'  <rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
-                    f'rx="2" fill="{base}"/>'
-                )
+                rects.append(
+                    f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{base}"/>')
                 continue
 
             k   = arrive[pos]
             dep = depart[pos]
-            t0  = k * SPD
-            t1  = (k + 1) * SPD
-            t2  = dep * SPD
-            t2e = t2 + SPD * 0.4
 
-            bc = BODY[1]  # body color
+            # percentage keyframe positions
+            pa  = pct(k * SPD, T)           # head arrives
+            pb  = min(pa + EPS, pct((k+1)*SPD, T) - EPS)  # head leaves → body
+            pb  = max(pa + EPS, pb)
+            pd  = pct(dep * SPD, T)         # tail leaves → eaten
+            pde = min(pd + EPS, 99.99)
 
-            # Ensure strictly increasing keyTimes by nudging duplicates
-            def safe_kt(t):
-                return max(0.0, min(t / T, 1.0))
-
-            kf0 = 0.0
-            kfa = safe_kt(t0)
-            kfb = safe_kt(t0) + 1e-5   # head flash start (tiny nudge after arrive)
-            kfc = safe_kt(t1)
-            kfd = safe_kt(t2)
-            kfe = safe_kt(t2e)
-            kff = 1.0
-
-            # Clamp and ensure monotone
-            kfb = min(kfb, kfc - 1e-5)
-            kfd = max(kfd, kfc + 1e-5)
-            kfe = max(kfe, kfd + 1e-5)
-            kfe = min(kfe, kff - 1e-5)
-
-            def fk(v):
-                return f"{v:.5f}"
-
-            if dep >= steps:
-                values = f"{base};{base};{HEAD};{bc}"
-                times  = f"{fk(kf0)};{fk(kfa)};{fk(kfb)};1"
+            # Build @keyframes rule
+            if pa <= 0:
+                # cell is first — starts as head
+                if dep >= steps:
+                    kf = f"@keyframes {cname}{{0%{{fill:{HEAD}}}{pb}%,100%{{fill:{BODY}}}}}"
+                else:
+                    kf = (f"@keyframes {cname}{{0%{{fill:{HEAD}}}{pb}%,{pd}%{{fill:{BODY}}}"
+                          f"{pde}%,100%{{fill:{EATEN}}}}}")
             else:
-                values = f"{base};{base};{HEAD};{bc};{bc};{EATEN};{EATEN}"
-                times  = (
-                    f"{fk(kf0)};{fk(kfa)};{fk(kfb)};"
-                    f"{fk(kfc)};{fk(kfd)};{fk(kfe)};{fk(kff)}"
-                )
+                pa0 = max(0, pa - EPS)
+                if dep >= steps:
+                    kf = (f"@keyframes {cname}{{0%,{pa0}%{{fill:{base}}}"
+                          f"{pa}%{{fill:{HEAD}}}{pb}%,100%{{fill:{BODY}}}}}")
+                else:
+                    kf = (f"@keyframes {cname}{{0%,{pa0}%{{fill:{base}}}"
+                          f"{pa}%{{fill:{HEAD}}}{pb}%,{pd}%{{fill:{BODY}}}"
+                          f"{pde}%,100%{{fill:{EATEN}}}}}")
 
-            out.append(
-                f'  <rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{base}">\n'
-                f'    <animate attributeName="fill" dur="{T:.2f}s" repeatCount="indefinite"\n'
-                f'      calcMode="discrete" values="{values}" keyTimes="{times}"/>\n'
-                f'  </rect>'
-            )
+            css_rules.append(kf)
+            css_rules.append(
+                f".{cname}{{animation:{cname} {T:.2f}s linear infinite}}")
+            rects.append(
+                f'<rect class="{cname}" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{base}"/>')
 
-    out.append('</svg>')
-    return '\n'.join(out)
+    style_block = "<style>" + "".join(css_rules) + "</style>"
+
+    lines = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+        f'  <rect width="{W}" height="{H}" fill="{BG}" rx="8"/>',
+        style_block,
+    ] + rects + ['</svg>']
+
+    return "\n".join(lines)
 
 
-# ── Entry point ───────────────────────────────────────────────────────────────
+# ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
     if not TOKEN:
-        print("GITHUB_TOKEN is not set.", file=sys.stderr)
-        sys.exit(1)
+        print("GITHUB_TOKEN not set", file=sys.stderr); sys.exit(1)
 
     print(f"Fetching contributions for {USERNAME}...")
     weeks  = fetch_contributions()
     grid   = build_grid(weeks)
-    path   = random_walk(grid)
+    path   = random_walk()
     states = compute_states(grid, path)
 
-    print(f"Grid   : {COLS} weeks × {ROWS} days = {len(path)} cells")
-    print(f"Snake  : starts at {INIT_LEN}, grows to {len(states[-1])} segments")
+    print(f"Grid : {COLS}×{ROWS} = {len(path)} cells")
+    print(f"Snake: starts {INIT_LEN}, max {MAX_LEN}, ends {len(states[-1])}")
 
     svg = generate_svg(grid, path, states)
 
     out_dir = os.path.dirname(OUTPUT_FILE)
-    if out_dir:
-        os.makedirs(out_dir, exist_ok=True)
+    if out_dir: os.makedirs(out_dir, exist_ok=True)
     with open(OUTPUT_FILE, 'w') as f:
         f.write(svg)
-
-    print(f"Written : {OUTPUT_FILE}  ({len(svg)/1024:.1f} KB)")
+    print(f"Done : {OUTPUT_FILE} ({len(svg)/1024:.1f} KB)")
 
 
 if __name__ == '__main__':
