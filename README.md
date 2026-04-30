@@ -54,10 +54,10 @@ By day I build and train **Graph Attention Networks**. By night I hunt vulnerabi
 
 **[ BLOCKCHAIN & WEB3 ]**
 
-![Ethereum](https://img.shields.io/badge/Ethereum-0D0D0D?style=for-the-badge&logo=ethereum&logoColor=00FFFF)
-![Solidity](https://img.shields.io/badge/Solidity-0D0D0D?style=for-the-badge&logo=solidity&logoColor=FF00FF)
-![Web3.js](https://img.shields.io/badge/Web3.js-0D0D0D?style=for-the-badge&logo=web3dotjs&logoColor=FFE600)
-![Smart Contracts](https://img.shields.io/badge/Smart_Contracts-0D0D0D?style=for-the-badge&logo=chainlink&logoColor=00FFFF)
+![Solana](https://img.shields.io/badge/Solana-0D0D0D?style=for-the-badge&logo=solana&logoColor=00FFFF)
+![Substrate](https://img.shields.io/badge/Substrate-0D0D0D?style=for-the-badge&logo=polkadot&logoColor=FF00FF)
+![Anchor](https://img.shields.io/badge/Anchor_Framework-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
+![Near](https://img.shields.io/badge/NEAR_Protocol-0D0D0D?style=for-the-badge&logo=near&logoColor=00FF7F)
 
 **[ DEVOPS & CLOUD ]**
 
