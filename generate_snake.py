@@ -1,36 +1,40 @@
 #!/usr/bin/env python3
 """
 Growing snake SVG generator for GitHub profile README.
-Fetches contribution data via GitHub GraphQL API and generates
-an animated SVG where the snake grows longer as it eats contributions.
+Snake takes a random walk through the contribution grid,
+growing longer each time it eats a contribution square.
 """
 
 import os
 import sys
+import random
 import requests
 
 USERNAME    = os.environ.get('GITHUB_USERNAME', 'Joshuaisikah')
 TOKEN       = os.environ.get('GITHUB_TOKEN', '')
-OUTPUT_FILE = os.environ.get('OUTPUT_FILE', 'dist/snake-growing.svg')
+OUTPUT_FILE = os.environ.get('OUTPUT_FILE', 'assets/snake-growing.svg')
 
 # ── Grid ──────────────────────────────────────────────────────────────────────
-CELL   = 12
-GAP    = 3
-STEP   = CELL + GAP
-MX     = 16   # margin x
-MY     = 20   # margin y
+CELL  = 12
+GAP   = 3
+STEP  = CELL + GAP
+MX    = 16
+MY    = 20
+COLS  = 53
+ROWS  = 7
 
 # ── Animation ─────────────────────────────────────────────────────────────────
-SPD          = 0.07   # seconds per grid step
-INIT_LEN     = 5      # starting snake length
-GROWTH_SCALE = 0.6    # segments added per contribution point
+SPD          = 0.07   # seconds per step
+INIT_LEN     = 5
+GROWTH_SCALE = 0.6
+RANDOM_SEED  = 42     # reproducible random walk
 
 # ── Cyberpunk palette ─────────────────────────────────────────────────────────
-BG      = '#0D0D0D'
-LEVELS  = ['#0D1A0D', '#0D3B0D', '#1A6B1A', '#00A550', '#00FF41']
-HEAD    = '#FFE600'
-BODY    = ['#00FF41', '#00D936', '#00B82C', '#009622', '#007518']
-EATEN   = '#060D06'
+BG     = '#0D0D0D'
+LEVELS = ['#0D1A0D', '#0D3B0D', '#1A6B1A', '#00A550', '#00FF41']
+HEAD   = '#FFE600'
+BODY   = ['#00FF41', '#00D936', '#00B82C', '#009622', '#007518']
+EATEN  = '#060D06'
 
 
 # ── GitHub API ────────────────────────────────────────────────────────────────
@@ -65,35 +69,77 @@ def fetch_contributions():
     return data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
 
 
-# ── Grid / path ───────────────────────────────────────────────────────────────
-
 def build_grid(weeks):
     grid = []
     for week in weeks:
         col = [d['contributionCount'] for d in week['contributionDays']]
-        while len(col) < 7:
+        while len(col) < ROWS:
             col.append(0)
         grid.append(col)
-    return grid
+    # Pad to COLS wide
+    while len(grid) < COLS:
+        grid.append([0] * ROWS)
+    return grid[:COLS]
 
 
-def build_path(grid):
-    """Boustrophedon (serpentine) path through the contribution grid."""
-    path = []
-    for ci, col in enumerate(grid):
-        rows = range(7) if ci % 2 == 0 else range(6, -1, -1)
-        for row in rows:
-            path.append((ci, row))
+# ── Random walk path ──────────────────────────────────────────────────────────
+
+def random_walk(grid):
+    """
+    Walk every cell exactly once using a space-filling random walk.
+    Falls back to scanning unvisited neighbours; backtracks if stuck.
+    Visits all COLS×ROWS cells.
+    """
+    rng = random.Random(RANDOM_SEED)
+    total = COLS * ROWS
+    visited = [[False] * ROWS for _ in range(COLS)]
+
+    def neighbours(c, r):
+        dirs = [(0,1),(0,-1),(1,0),(-1,0)]
+        rng.shuffle(dirs)
+        return [
+            (c+dc, r+dr)
+            for dc, dr in dirs
+            if 0 <= c+dc < COLS and 0 <= r+dr < ROWS
+        ]
+
+    # Start at top-left
+    path = [(0, 0)]
+    visited[0][0] = True
+    stack = [(0, 0)]
+
+    while len(path) < total:
+        c, r = stack[-1]
+        unvisited = [(nc, nr) for nc, nr in neighbours(c, r) if not visited[nc][nr]]
+        if unvisited:
+            nc, nr = rng.choice(unvisited)
+            visited[nc][nr] = True
+            path.append((nc, nr))
+            stack.append((nc, nr))
+        else:
+            # Backtrack
+            stack.pop()
+            if not stack:
+                # Find any unvisited cell and teleport (shouldn't happen often)
+                for ci in range(COLS):
+                    for ri in range(ROWS):
+                        if not visited[ci][ri]:
+                            visited[ci][ri] = True
+                            path.append((ci, ri))
+                            stack.append((ci, ri))
+                            break
+                    if stack:
+                        break
+
     return path
 
 
 # ── Snake state ───────────────────────────────────────────────────────────────
 
 def compute_states(grid, path):
-    """Return list of snake body lists (head first) at every step."""
     states, snake, target = [], [], INIT_LEN
     for col, row in path:
-        count = grid[col][row]
+        count = grid[col][row] if col < len(grid) and row < len(grid[col]) else 0
         snake = [(col, row)] + snake
         if count > 0:
             target += max(1, int(count * GROWTH_SCALE))
@@ -113,30 +159,22 @@ def level_color(count):
     return LEVELS[4]
 
 
-def body_color(depth):
-    return BODY[min(depth, len(BODY) - 1)]
-
-
 def kt(t, total):
-    """Normalised keyTime, clamped to [0, 1], 5 decimal places."""
     return f"{max(0.0, min(t / total, 1.0)):.5f}"
 
 
 def generate_svg(grid, path, states):
-    N       = len(grid)
-    steps   = len(path)
-    T       = steps * SPD
-    W       = MX + N * STEP + MX
-    H       = MY + 7 * STEP + MY
+    steps = len(path)
+    T     = steps * SPD
+    W     = MX + COLS * STEP + MX
+    H     = MY + ROWS * STEP + MY
 
-    # Fast lookup: is pos in snake at step i?
     snake_sets = [set(map(tuple, s)) for s in states]
 
-    # Per cell: when does the head arrive, when does the tail leave?
     arrive  = {pos: k for k, pos in enumerate(path)}
     depart  = {}
     for k, pos in enumerate(path):
-        dep = steps   # stays till end by default
+        dep = steps
         for j in range(k + 1, steps):
             if pos not in snake_sets[j]:
                 dep = j
@@ -150,8 +188,9 @@ def generate_svg(grid, path, states):
     )
     out.append(f'  <rect width="{W}" height="{H}" fill="{BG}" rx="8"/>')
 
-    for ci, col in enumerate(grid):
-        for row in range(7):
+    for ci in range(COLS):
+        col = grid[ci] if ci < len(grid) else [0] * ROWS
+        for row in range(ROWS):
             count = col[row] if row < len(col) else 0
             x     = MX + ci * STEP
             y     = MY + row * STEP
@@ -159,7 +198,6 @@ def generate_svg(grid, path, states):
             base  = level_color(count)
 
             if pos not in arrive:
-                # Not visited by snake — static cell
                 out.append(
                     f'  <rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
                     f'rx="2" fill="{base}"/>'
@@ -168,24 +206,42 @@ def generate_svg(grid, path, states):
 
             k   = arrive[pos]
             dep = depart[pos]
+            t0  = k * SPD
+            t1  = (k + 1) * SPD
+            t2  = dep * SPD
+            t2e = t2 + SPD * 0.4
 
-            t0   = k * SPD           # head arrives
-            t1   = (k + 1) * SPD     # head moves on → becomes body
-            t2   = dep * SPD         # tail leaves
-            t2e  = t2 + SPD * 0.4    # brief eaten flash
+            bc = BODY[1]  # body color
 
-            # Determine depth of this cell when first seen as body (always 1 initially)
-            bc = body_color(1)
+            # Ensure strictly increasing keyTimes by nudging duplicates
+            def safe_kt(t):
+                return max(0.0, min(t / T, 1.0))
+
+            kf0 = 0.0
+            kfa = safe_kt(t0)
+            kfb = safe_kt(t0) + 1e-5   # head flash start (tiny nudge after arrive)
+            kfc = safe_kt(t1)
+            kfd = safe_kt(t2)
+            kfe = safe_kt(t2e)
+            kff = 1.0
+
+            # Clamp and ensure monotone
+            kfb = min(kfb, kfc - 1e-5)
+            kfd = max(kfd, kfc + 1e-5)
+            kfe = max(kfe, kfd + 1e-5)
+            kfe = min(kfe, kff - 1e-5)
+
+            def fk(v):
+                return f"{v:.5f}"
 
             if dep >= steps:
-                # Snake still here at animation end
                 values = f"{base};{base};{HEAD};{bc}"
-                times  = f"0;{kt(t0,T)};{kt(t0,T)};1"
+                times  = f"{fk(kf0)};{fk(kfa)};{fk(kfb)};1"
             else:
                 values = f"{base};{base};{HEAD};{bc};{bc};{EATEN};{EATEN}"
                 times  = (
-                    f"0;{kt(t0,T)};{kt(t0,T)};"
-                    f"{kt(t1,T)};{kt(t2,T)};{kt(t2e,T)};1"
+                    f"{fk(kf0)};{fk(kfa)};{fk(kfb)};"
+                    f"{fk(kfc)};{fk(kfd)};{fk(kfe)};{fk(kff)}"
                 )
 
             out.append(
@@ -209,10 +265,10 @@ def main():
     print(f"Fetching contributions for {USERNAME}...")
     weeks  = fetch_contributions()
     grid   = build_grid(weeks)
-    path   = build_path(grid)
+    path   = random_walk(grid)
     states = compute_states(grid, path)
 
-    print(f"Grid   : {len(grid)} weeks × 7 days = {len(path)} cells")
+    print(f"Grid   : {COLS} weeks × {ROWS} days = {len(path)} cells")
     print(f"Snake  : starts at {INIT_LEN}, grows to {len(states[-1])} segments")
 
     svg = generate_svg(grid, path, states)

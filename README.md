@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=FFE600&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=FF00FF&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=神風%20%7C%20Kamikaze&fontSize=70&fontColor=00FFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオ東京%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=FF00FF&descSize=18)
 
 <br/>
 
@@ -36,7 +36,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 ## `⚡ TECH STACK`
 
 <!-- LANGUAGES -->
-![](https://capsule-render.vercel.app/api?type=rect&color=FFE600&height=28&text=◈%20LANGUAGES&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
+![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20LANGUAGES&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
 
 <table>
   <tr>
@@ -61,7 +61,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
   <tr>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="50"/><br/><sub><b>TensorFlow</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="50"/><br/><sub><b>PyTorch</b></sub></td>
-    <td align="center" width="110"><img src="https://img.shields.io/badge/scikit--learn-FFE600?style=for-the-badge&logo=scikit-learn&logoColor=0D0D0D" /><br/><sub><b>scikit-learn</b></sub></td>
+    <td align="center" width="110"><img src="https://img.shields.io/badge/scikit--learn-00FFFF?style=for-the-badge&logo=scikit-learn&logoColor=0D0D0D" /><br/><sub><b>scikit-learn</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/Pandas-00FFFF?style=for-the-badge&logo=pandas&logoColor=0D0D0D" /><br/><sub><b>Pandas</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/NumPy-FF00FF?style=for-the-badge&logo=numpy&logoColor=white" /><br/><sub><b>NumPy</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/GAT-00FF7F?style=for-the-badge&logoColor=0D0D0D" /><br/><sub><b>Graph Attention</b></sub></td>
@@ -78,7 +78,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" width="50"/><br/><sub><b>Laravel</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=dotnet&theme=dark" width="50"/><br/><sub><b>.NET</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=graphql&theme=dark" width="50"/><br/><sub><b>GraphQL</b></sub></td>
-    <td align="center" width="100"><img src="https://img.shields.io/badge/Actix_Web-FFE600?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Actix Web</b></sub></td>
+    <td align="center" width="100"><img src="https://img.shields.io/badge/Actix_Web-00FFFF?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Actix Web</b></sub></td>
   </tr>
 </table>
 
@@ -91,7 +91,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
   <tr>
     <td align="center" width="130"><img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" /><br/><sub><b>Solana</b></sub></td>
     <td align="center" width="130"><img src="https://img.shields.io/badge/Substrate-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" /><br/><sub><b>Substrate</b></sub></td>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/Anchor-FFE600?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Anchor</b></sub></td>
+    <td align="center" width="130"><img src="https://img.shields.io/badge/Anchor-00FFFF?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Anchor</b></sub></td>
     <td align="center" width="130"><img src="https://img.shields.io/badge/NEAR-00C08B?style=for-the-badge&logo=near&logoColor=white" /><br/><sub><b>NEAR Protocol</b></sub></td>
   </tr>
 </table>
@@ -160,14 +160,14 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 <br/>
 
 <!-- TOOLS -->
-![](https://capsule-render.vercel.app/api?type=rect&color=FFE600&height=28&text=◈%20TOOLS%20%26%20NETWORKING&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
+![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20TOOLS%20%26%20NETWORKING&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
 
 <table>
   <tr>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="50"/><br/><sub><b>Git</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"/><br/><sub><b>GitHub</b></sub></td>
     <td align="center" width="90"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="50"/><br/><sub><b>VS Code</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Apache-FFE600?style=for-the-badge&logo=apache&logoColor=0D0D0D" /><br/><sub><b>Apache</b></sub></td>
+    <td align="center" width="90"><img src="https://img.shields.io/badge/Apache-00FFFF?style=for-the-badge&logo=apache&logoColor=0D0D0D" /><br/><sub><b>Apache</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/Cisco-00FFFF?style=for-the-badge&logo=cisco&logoColor=0D0D0D" /><br/><sub><b>Cisco</b></sub></td>
     <td align="center" width="90"><img src="https://img.shields.io/badge/NPM-FF0000?style=for-the-badge&logo=npm&logoColor=white" /><br/><sub><b>NPM</b></sub></td>
   </tr>
@@ -206,7 +206,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=FFE600&bg_color=0D0D0D)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=00FFFF&bg_color=0D0D0D)
 
 </div>
 
@@ -216,7 +216,7 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 <div align="center">
 
-![snake](https://raw.githubusercontent.com/Joshuaisikah/Joshuaisikah/output/snake-growing.svg)
+![snake](assets/snake-growing.svg)
 
 </div>
 
