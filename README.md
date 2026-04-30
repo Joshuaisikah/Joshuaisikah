@@ -31,112 +31,100 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 
 ---
 
-## `言語 // LANGUAGES`
-
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
-![Python](https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=FFE600)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=00FFFF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=FFE600)
-![Java](https://img.shields.io/badge/Java-0D0D0D?style=for-the-badge&logo=openjdk&logoColor=FF00FF)
-![PHP](https://img.shields.io/badge/PHP-0D0D0D?style=for-the-badge&logo=php&logoColor=00FFFF)
-![C#](https://img.shields.io/badge/C%23-0D0D0D?style=for-the-badge&logo=csharp&logoColor=FF00FF)
-![C++](https://img.shields.io/badge/C++-0D0D0D?style=for-the-badge&logo=c%2B%2B&logoColor=00FFFF)
-![C](https://img.shields.io/badge/C-0D0D0D?style=for-the-badge&logo=c&logoColor=00FFFF)
+## `⚡ 技術スタック // TECH STACK`
 
-</div>
+![](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,30&height=3)
 
-## `機械学習 // MACHINE LEARNING`
+<br/>
 
-<div align="center">
+### `〔 言語 〕LANGUAGES`
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D0D0D?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0D0D0D?style=for-the-badge&logo=scikit-learn&logoColor=FF00FF)
-![Pandas](https://img.shields.io/badge/Pandas-0D0D0D?style=for-the-badge&logo=pandas&logoColor=00FFFF)
-![NumPy](https://img.shields.io/badge/NumPy-0D0D0D?style=for-the-badge&logo=numpy&logoColor=00FFFF)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D0D0D?style=for-the-badge&logo=Matplotlib&logoColor=FFE600)
+[![Skills](https://skillicons.dev/icons?i=rust,py,ts,js,java,php,cs,cpp,c&theme=dark&perline=9)](https://skillicons.dev)
 
-</div>
+<br/>
 
-## `ウェブ // WEB BACKEND`
+![](https://capsule-render.vercel.app/api?type=rect&color=0D0D0D&height=2)
 
-<div align="center">
+### `〔 機械学習 〕MACHINE LEARNING & AI`
 
-![Laravel](https://img.shields.io/badge/Laravel-0D0D0D?style=for-the-badge&logo=laravel&logoColor=FF2D20)
-![.NET](https://img.shields.io/badge/.NET-0D0D0D?style=for-the-badge&logo=dotnet&logoColor=FF00FF)
-![GraphQL](https://img.shields.io/badge/GraphQL-0D0D0D?style=for-the-badge&logo=graphql&logoColor=FF00FF)
-![Actix Web](https://img.shields.io/badge/Actix_Web-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
+[![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=9)](https://skillicons.dev)
 
-</div>
+![scikit-learn](https://img.shields.io/badge/scikit--learn-FFE600?style=flat-square&logo=scikit-learn&logoColor=0D0D0D)
+![Pandas](https://img.shields.io/badge/Pandas-00FFFF?style=flat-square&logo=pandas&logoColor=0D0D0D)
+![NumPy](https://img.shields.io/badge/NumPy-FF00FF?style=flat-square&logo=numpy&logoColor=0D0D0D)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-FFE600?style=flat-square&logo=matplotlib&logoColor=0D0D0D)
+![Graph Attention Networks](https://img.shields.io/badge/Graph_Attention_Networks-00FF7F?style=flat-square&logoColor=0D0D0D)
 
-## `ブロックチェーン // BLOCKCHAIN`
+<br/>
 
-<div align="center">
+### `〔 ウェブ 〕WEB BACKEND`
 
-![Solana](https://img.shields.io/badge/Solana-0D0D0D?style=for-the-badge&logo=solana&logoColor=00FFFF)
-![Substrate](https://img.shields.io/badge/Substrate-0D0D0D?style=for-the-badge&logo=polkadot&logoColor=FF00FF)
-![Anchor](https://img.shields.io/badge/Anchor_Framework-0D0D0D?style=for-the-badge&logo=rust&logoColor=FFE600)
-![NEAR](https://img.shields.io/badge/NEAR_Protocol-0D0D0D?style=for-the-badge&logo=near&logoColor=00FF7F)
+[![Skills](https://skillicons.dev/icons?i=laravel,dotnet,graphql&theme=dark&perline=9)](https://skillicons.dev)
 
-</div>
+![Actix Web](https://img.shields.io/badge/Actix_Web-FFE600?style=flat-square&logo=rust&logoColor=0D0D0D)
 
-## `クラウド // DEVOPS & CLOUD`
+<br/>
 
-<div align="center">
+### `〔 ブロックチェーン 〕BLOCKCHAIN — RUST ONLY`
 
-![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=00FFFF)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0D0D0D?style=for-the-badge&logo=kubernetes&logoColor=FF00FF)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=FFE600)
-![Nginx](https://img.shields.io/badge/Nginx-0D0D0D?style=for-the-badge&logo=nginx&logoColor=00FF7F)
+<table>
+  <tr>
+    <td align="center" width="130">
+      <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" /><br/>
+      <sub>Solana</sub>
+    </td>
+    <td align="center" width="130">
+      <img src="https://img.shields.io/badge/Substrate-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" /><br/>
+      <sub>Substrate</sub>
+    </td>
+    <td align="center" width="130">
+      <img src="https://img.shields.io/badge/Anchor-FFE600?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/>
+      <sub>Anchor Framework</sub>
+    </td>
+    <td align="center" width="130">
+      <img src="https://img.shields.io/badge/NEAR-00C08B?style=for-the-badge&logo=near&logoColor=white" /><br/>
+      <sub>NEAR Protocol</sub>
+    </td>
+  </tr>
+</table>
 
-</div>
+<br/>
 
-## `フロントエンド // WEB FRONTEND`
+### `〔 クラウド 〕DEVOPS & CLOUD`
 
-<div align="center">
+[![Skills](https://skillicons.dev/icons?i=docker,kubernetes,githubactions,nginx&theme=dark&perline=9)](https://skillicons.dev)
 
-![React](https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=00FFFF)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-0D0D0D?style=for-the-badge&logo=tailwind-css&logoColor=00FFFF)
-![HTML5](https://img.shields.io/badge/HTML5-0D0D0D?style=for-the-badge&logo=html5&logoColor=FFE600)
-![CSS3](https://img.shields.io/badge/CSS3-0D0D0D?style=for-the-badge&logo=css3&logoColor=FF00FF)
-![Vite](https://img.shields.io/badge/Vite-0D0D0D?style=for-the-badge&logo=vite&logoColor=646CFF)
+<br/>
 
-</div>
+### `〔 フロントエンド 〕WEB FRONTEND`
 
-## `データベース // DATABASES`
+[![Skills](https://skillicons.dev/icons?i=react,tailwind,html,css,vite&theme=dark&perline=9)](https://skillicons.dev)
 
-<div align="center">
+<br/>
 
-![Postgres](https://img.shields.io/badge/PostgreSQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=00FFFF)
-![MySQL](https://img.shields.io/badge/MySQL-0D0D0D?style=for-the-badge&logo=mysql&logoColor=FFE600)
-![MongoDB](https://img.shields.io/badge/MongoDB-0D0D0D?style=for-the-badge&logo=mongodb&logoColor=00FF7F)
-![MariaDB](https://img.shields.io/badge/MariaDB-0D0D0D?style=for-the-badge&logo=mariadb&logoColor=FF00FF)
-![SQLite](https://img.shields.io/badge/SQLite-0D0D0D?style=for-the-badge&logo=sqlite&logoColor=00FFFF)
+### `〔 データベース 〕DATABASES`
 
-</div>
+[![Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite&theme=dark&perline=9)](https://skillicons.dev)
 
-## `ツール // TOOLS`
+![MariaDB](https://img.shields.io/badge/MariaDB-00FFFF?style=flat-square&logo=mariadb&logoColor=0D0D0D)
 
-<div align="center">
+<br/>
 
-![Apache](https://img.shields.io/badge/Apache-0D0D0D?style=for-the-badge&logo=apache&logoColor=FFE600)
-![NPM](https://img.shields.io/badge/NPM-0D0D0D?style=for-the-badge&logo=npm&logoColor=FF0000)
-![Cisco](https://img.shields.io/badge/Cisco-0D0D0D?style=for-the-badge&logo=cisco&logoColor=00FFFF)
+### `〔 OS 〕OPERATING SYSTEMS`
 
-</div>
+[![Skills](https://skillicons.dev/icons?i=linux,arch,kali,ubuntu,fedora,manjaro,windows&theme=dark&perline=9)](https://skillicons.dev)
 
-## `OS // オペレーティングシステム`
+<br/>
 
-<div align="center">
+### `〔 ツール 〕TOOLS & NETWORKING`
 
-![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=FFE600)
-![Arch](https://img.shields.io/badge/Arch_Linux-0D0D0D?style=for-the-badge&logo=arch-linux&logoColor=00FFFF)
-![Kali](https://img.shields.io/badge/Kali_Linux-0D0D0D?style=for-the-badge&logo=kalilinux&logoColor=FF00FF)
-![Fedora](https://img.shields.io/badge/Fedora-0D0D0D?style=for-the-badge&logo=fedora&logoColor=00FFFF)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-0D0D0D?style=for-the-badge&logo=ubuntu&logoColor=E95420)
-![Manjaro](https://img.shields.io/badge/Manjaro-0D0D0D?style=for-the-badge&logo=Manjaro&logoColor=00FF7F)
-![Windows 11](https://img.shields.io/badge/Windows_11-0D0D0D?style=for-the-badge&logo=Windows%2011&logoColor=00FFFF)
+[![Skills](https://skillicons.dev/icons?i=git,github,vscode&theme=dark&perline=9)](https://skillicons.dev)
+
+![Apache](https://img.shields.io/badge/Apache-FFE600?style=flat-square&logo=apache&logoColor=0D0D0D)
+![Cisco](https://img.shields.io/badge/Cisco-00FFFF?style=flat-square&logo=cisco&logoColor=0D0D0D)
+![NPM](https://img.shields.io/badge/NPM-FF0000?style=flat-square&logo=npm&logoColor=white)
 
 </div>
 
