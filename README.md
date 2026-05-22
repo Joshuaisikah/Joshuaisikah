@@ -23,9 +23,9 @@
 
 <div align="center">
 
-Systems developer primarily writing **Rust**, with strong roots in **C++** and **C#**.
-Exploring **IoT & firmware** and grinding dynamic programming challenges.
-Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali Linux** by night.
+⚡ Rust systems engineer building distributed infrastructure for the decentralized world.<br/>
+IoT • Blockchain • Low-level systems | Nairobi, Kenya 🇰🇪<br/>
+Open to remote opportunities — <a href="joshuaiska@gmail.com">hire me</a>
 
 </div>
 
