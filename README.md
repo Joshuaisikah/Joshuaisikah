@@ -192,7 +192,6 @@ Taming **Graph Attention Networks** by day — hunting vulnerabilities on **Kali
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats-chi-three-51.vercel.app/api?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&cache_seconds=1800" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=Joshuaisikah&theme=radical&hide_border=true" />
 
 <br/>
 
