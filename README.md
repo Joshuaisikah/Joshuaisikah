@@ -1,10 +1,10 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,14,30&height=250&text=カミカゼ%20%7C%20Kamikaze&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=45&desc=カミカゼ%20%2F%2F%20ネオトウキョウ%20%2F%2F%20SYSTEM%20ONLINE&descAlignY=65&descAlign=50&descColor=A855F7&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&text=Joshua%20Isika&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45&desc=Systems%20Engineer%20%7C%20Blockchain%20%7C%20IoT%20%7C%20Low-Level%20Systems&descAlignY=68&descAlign=50&descColor=A855F7&descSize=18)
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=%3E_+Booting+system...;%3E_+Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;%3E_+Solana+blockchain+developer...;%3E_+Hunting+vulnerabilities+on+Kali+Linux...;%3E_+Graph+Attention+Networks+training...;%3E_+IoT+%26+Firmware+explorer...;%3E_+Follow+the+white+rabbit+%F0%9F%90%87;%3E_+All+systems+go.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;Solana+blockchain+developer;Hunting+vulnerabilities+on+Kali+Linux;Graph+Attention+Networks+training;IoT+%26+Firmware+explorer;Open+to+remote+opportunities)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,10 +12,10 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
-║  ID        :  Joshuaisikah  //  カミカゼ  //  Kamikaze           ║
+║  NAME      :  Joshua Isika                                       ║
 ║  SPECIALTY :  Systems · Blockchain · ML · Cybersecurity          ║
-║  STATUS    :  Grinding IoT · Dynamic Programming · Rust APIs     ║
-║  LOCATION  :  ネオトウキョウ // The Matrix                        ║
+║  STATUS    :  Building IoT · Dynamic Programming · Rust APIs     ║
+║  LOCATION  :  Nairobi, Kenya                                     ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -25,7 +25,7 @@
 
 ⚡ Rust systems engineer building distributed infrastructure for the decentralized world.<br/>
 IoT • Blockchain • Low-level systems | Nairobi, Kenya 🇰🇪<br/>
-Open to remote opportunities — <a href="joshuaiska@gmail.com">hire me</a>
+Open to remote opportunities — <a href="mailto:joshuaiska@gmail.com">hire me</a>
 
 </div>
 
@@ -177,7 +177,7 @@ Open to remote opportunities — <a href="joshuaiska@gmail.com">hire me</a>
 
 ---
 
-## `トロフィー // TROPHIES`
+## `TROPHIES`
 
 <div align="center">
 
@@ -211,7 +211,7 @@ Open to remote opportunities — <a href="joshuaiska@gmail.com">hire me</a>
 
 ---
 
-## `ヘビ // SNAKE`
+## `CONTRIBUTION SNAKE`
 
 <div align="center">
 
@@ -223,18 +223,7 @@ Open to remote opportunities — <a href="joshuaiska@gmail.com">hire me</a>
 
 <div align="center">
 
-```
-> Wake up, Neo...
-> The Matrix has you...
-> Follow the white rabbit. 🐇
-> There is no spoon.
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&pause=1200&color=00FF41&center=true&vCenter=true&width=750&lines=%3E+You+take+the+blue+pill+%E2%80%94+the+story+ends%3B;%3E+You+take+the+red+pill+%E2%80%94+you+stay+in+Wonderland%3B;%3E+I+can+only+show+you+the+door...;%3E+You%27re+the+one+who+has+to+walk+through+it.)](https://git.io/typing-svg)
-
-<br/>
-
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=カミカゼ%20%2F%2F%20システムオフライン&fontSize=20&fontColor=A855F7&animation=twinkling&fontAlignY=65)
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=Joshua%20Isika%20%2F%2F%20Systems%20Engineer&fontSize=20&fontColor=A855F7&animation=fadeIn&fontAlignY=65)
 
 [![](https://visitcount.itsvg.in/api?id=Joshuaisikah&label=PROFILE_VIEWS&color=12&icon=6&pretty=false)](https://visitcount.itsvg.in)
 
