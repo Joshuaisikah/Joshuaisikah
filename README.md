@@ -1,230 +1,47 @@
-<div align="center">
+# Joshua Isika
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=200&text=Joshua%20Isika&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45&desc=Systems%20Engineer%20%7C%20Blockchain%20%7C%20IoT%20%7C%20Low-Level%20Systems&descAlignY=68&descAlign=50&descColor=A855F7&descSize=18)
+Systems engineer based in Nairobi, Kenya. Most of my time these days goes into
+Rust — blockchains, TLS internals, and the low-level plumbing that most people
+never think about until it breaks.
 
-<br/>
+## What I'm working on
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=1000&color=00FFFF&center=true&vCenter=true&width=750&lines=Rust+%7C+C%2B%2B+%7C+C%23+%7C+Blockchain+%7C+ML+%7C+Cybersecurity;Solana+blockchain+developer;Hunting+vulnerabilities+on+Kali+Linux;Graph+Attention+Networks+training;IoT+%26+Firmware+explorer;Open+to+remote+opportunities)](https://git.io/typing-svg)
+- **[kamichain](https://github.com/Joshuaisikah/kamichain)** — a proof-of-work
+  blockchain built from scratch: SHA-256 blocks, ed25519-signed transactions,
+  TCP peer gossip, longest-chain fork resolution, and a CLI to drive it.
+- **[tls-proxy](https://github.com/Joshuaisikah/tls-proxy)** — a MITM TLS proxy
+  written to learn rustls internals from the ground up, and to prototype
+  system-wide crypto policy integration on Fedora.
+- **[portfolio](https://joshuaisikah.github.io)** — my personal site, built
+  around live WebAssembly demos of the projects above instead of a static
+  resume.
+- **[programming-rust-journey](https://github.com/Joshuaisikah/programming-rust-journey)**
+  and **[rustaceans-odyssey](https://github.com/Joshuaisikah/rustaceans-odyssey)** —
+  where I work through Rust fundamentals and systems topics (async runtimes,
+  database engines, lock-free structures) as complete programs rather than
+  toy exercises.
 
-</div>
+I also contribute to the threshold-cryptography libraries maintained by
+[LFDT-Lockness](https://github.com/LFDT-Lockness) (`cggmp21`, `generic-ec`,
+`round-based`), and to the
+[Linux Foundation Decentralized Trust Mentorship Program](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program).
 
-<br/>
+## Background
 
-```
-╔═══════════════════════════════════════════════════════════════════╗
-║  NAME      :  Joshua Isika                                       ║
-║  SPECIALTY :  Systems · Blockchain · ML · Cybersecurity          ║
-║  STATUS    :  Building IoT · Dynamic Programming · Rust APIs     ║
-║  LOCATION  :  Nairobi, Kenya                                     ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
+Languages: Rust, Python, TypeScript/JavaScript, C/C++, C#, Java, PHP.
 
-<br/>
+I also spend time in machine learning (PyTorch, TensorFlow, graph attention
+networks), blockchain work outside Rust (Solana, Substrate, NEAR), and
+networking/security on Linux (Kali, Fedora, Arch).
 
-<div align="center">
-
-⚡ Rust systems engineer building distributed infrastructure for the decentralized world.<br/>
-IoT • Blockchain • Low-level systems | Nairobi, Kenya 🇰🇪<br/>
-Open to remote opportunities — <a href="mailto:joshuaiska@gmail.com">hire me</a>
-
-</div>
-
----
-
-<div align="center">
-
-## `⚡ TECH STACK`
-
-<!-- LANGUAGES -->
-![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20LANGUAGES&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=rust&theme=dark" width="50"/><br/><sub><b>Rust</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="50"/><br/><sub><b>Python</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="50"/><br/><sub><b>TypeScript</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="50"/><br/><sub><b>JavaScript</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="50"/><br/><sub><b>Java</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=php&theme=dark" width="50"/><br/><sub><b>PHP</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cs&theme=dark" width="50"/><br/><sub><b>C#</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="50"/><br/><sub><b>C++</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="50"/><br/><sub><b>C</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ML & AI -->
-![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20MACHINE%20LEARNING%20%26%20AI&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="50"/><br/><sub><b>TensorFlow</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="50"/><br/><sub><b>PyTorch</b></sub></td>
-    <td align="center" width="110"><img src="https://img.shields.io/badge/scikit--learn-00FFFF?style=for-the-badge&logo=scikit-learn&logoColor=0D0D0D" /><br/><sub><b>scikit-learn</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Pandas-00FFFF?style=for-the-badge&logo=pandas&logoColor=0D0D0D" /><br/><sub><b>Pandas</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/NumPy-FF00FF?style=for-the-badge&logo=numpy&logoColor=white" /><br/><sub><b>NumPy</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/GAT-00FF7F?style=for-the-badge&logoColor=0D0D0D" /><br/><sub><b>Graph Attention</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- WEB BACKEND -->
-![](https://capsule-render.vercel.app/api?type=rect&color=FF00FF&height=28&text=◈%20WEB%20BACKEND&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" width="50"/><br/><sub><b>Laravel</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=dotnet&theme=dark" width="50"/><br/><sub><b>.NET</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=graphql&theme=dark" width="50"/><br/><sub><b>GraphQL</b></sub></td>
-    <td align="center" width="100"><img src="https://img.shields.io/badge/Actix_Web-00FFFF?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Actix Web</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- BLOCKCHAIN -->
-![](https://capsule-render.vercel.app/api?type=rect&color=9945FF&height=28&text=◈%20BLOCKCHAIN%20—%20RUST%20ONLY&fontSize=13&fontColor=white&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" /><br/><sub><b>Solana</b></sub></td>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/Substrate-E6007A?style=for-the-badge&logo=polkadot&logoColor=white" /><br/><sub><b>Substrate</b></sub></td>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/Anchor-00FFFF?style=for-the-badge&logo=rust&logoColor=0D0D0D" /><br/><sub><b>Anchor</b></sub></td>
-    <td align="center" width="130"><img src="https://img.shields.io/badge/NEAR-00C08B?style=for-the-badge&logo=near&logoColor=white" /><br/><sub><b>NEAR Protocol</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- DEVOPS -->
-![](https://capsule-render.vercel.app/api?type=rect&color=00FF41&height=28&text=◈%20DEVOPS%20%26%20CLOUD&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="50"/><br/><sub><b>Docker</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" width="50"/><br/><sub><b>Kubernetes</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="50"/><br/><sub><b>GH Actions</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nginx&theme=dark" width="50"/><br/><sub><b>Nginx</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- FRONTEND -->
-![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20WEB%20FRONTEND&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="50"/><br/><sub><b>React</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="50"/><br/><sub><b>Tailwind</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="50"/><br/><sub><b>HTML5</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="50"/><br/><sub><b>CSS3</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="50"/><br/><sub><b>Vite</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- DATABASES -->
-![](https://capsule-render.vercel.app/api?type=rect&color=FF6F00&height=28&text=◈%20DATABASES&fontSize=13&fontColor=white&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="50"/><br/><sub><b>PostgreSQL</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="50"/><br/><sub><b>MySQL</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="50"/><br/><sub><b>MongoDB</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=sqlite&theme=dark" width="50"/><br/><sub><b>SQLite</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/MariaDB-00FFFF?style=for-the-badge&logo=mariadb&logoColor=0D0D0D" /><br/><sub><b>MariaDB</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- OS -->
-![](https://capsule-render.vercel.app/api?type=rect&color=FF0000&height=28&text=◈%20OPERATING%20SYSTEMS&fontSize=13&fontColor=white&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux&theme=dark" width="50"/><br/><sub><b>Linux</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=arch&theme=dark" width="50"/><br/><sub><b>Arch</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white" /><br/><sub><b>Kali Linux</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ubuntu&theme=dark" width="50"/><br/><sub><b>Ubuntu</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" /><br/><sub><b>Fedora</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white" /><br/><sub><b>Manjaro</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=windows&theme=dark" width="50"/><br/><sub><b>Windows 11</b></sub></td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- TOOLS -->
-![](https://capsule-render.vercel.app/api?type=rect&color=00FFFF&height=28&text=◈%20TOOLS%20%26%20NETWORKING&fontSize=13&fontColor=0D0D0D&fontAlignY=70&animation=fadeIn)
-
-<table>
-  <tr>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="50"/><br/><sub><b>Git</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="50"/><br/><sub><b>GitHub</b></sub></td>
-    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="50"/><br/><sub><b>VS Code</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Apache-00FFFF?style=for-the-badge&logo=apache&logoColor=0D0D0D" /><br/><sub><b>Apache</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/Cisco-00FFFF?style=for-the-badge&logo=cisco&logoColor=0D0D0D" /><br/><sub><b>Cisco</b></sub></td>
-    <td align="center" width="90"><img src="https://img.shields.io/badge/NPM-FF0000?style=for-the-badge&logo=npm&logoColor=white" /><br/><sub><b>NPM</b></sub></td>
-  </tr>
-</table>
-
-</div>
-
----
-
-## `TROPHIES`
-
-<div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=Joshuaisikah&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1)
-
-</div>
-
----
-
-## `STATS`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats-chi-three-51.vercel.app/api?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&cache_seconds=1800" />
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats-chi-three-51.vercel.app/api/top-langs/?username=Joshuaisikah&theme=radical&hide_border=true&count_private=true&layout=compact&cache_seconds=1800" />
-
-</div>
-
----
-
-## `ACTIVITY`
-
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Joshuaisikah&theme=react-dark&hide_border=true&color=FF00FF&line=00FFFF&point=00FFFF&bg_color=0D0D0D)
-
-</div>
-
----
-
-## `CONTRIBUTION SNAKE`
-
-<div align="center">
-
-![snake](assets/snake-growing.svg)
-
-</div>
+Open to remote opportunities — reach me at
+[joshuaiska@gmail.com](mailto:joshuaiska@gmail.com).
 
 ---
 
 <div align="center">
 
-![](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&text=Joshua%20Isika%20%2F%2F%20Systems%20Engineer&fontSize=20&fontColor=A855F7&animation=fadeIn&fontAlignY=65)
-
-[![](https://visitcount.itsvg.in/api?id=Joshuaisikah&label=PROFILE_VIEWS&color=12&icon=6&pretty=false)](https://visitcount.itsvg.in)
+<img width="49%" src="https://github-readme-stats-chi-three-51.vercel.app/api?username=Joshuaisikah&theme=default&hide_border=true&count_private=true&cache_seconds=1800" />
+<img width="40%" src="https://github-readme-stats-chi-three-51.vercel.app/api/top-langs/?username=Joshuaisikah&theme=default&hide_border=true&count_private=true&layout=compact&cache_seconds=1800" />
 
 </div>
