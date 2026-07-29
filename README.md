@@ -1,8 +1,6 @@
 # Joshua Isika
 
-Software engineer based in Nairobi, Kenya, working in Rust — systems programming, embedded/IoT, and blockchain infrastructure.
-
-Contributor to [rust-analyzer](https://github.com/rust-lang/rust-analyzer) and [rustls](https://github.com/rustls/rustls), the threshold-cryptography libraries maintained by [LFDT-Lockness](https://github.com/LFDT-Lockness) (`cggmp21`, `generic-ec`, `round-based`), and the [Linux Foundation Decentralized Trust Mentorship Program](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program).
+Software engineer based in Nairobi, Kenya. I build industrial IoT and embedded systems professionally, and work on Rust systems programming and blockchain infrastructure on the side.
 
 Projects: [joshuaisikah.github.io](https://joshuaisikah.github.io)
 
