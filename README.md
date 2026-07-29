@@ -8,6 +8,6 @@ Projects: [joshuaisikah.github.io](https://joshuaisikah.github.io)
 
 Languages: Rust, Python, TypeScript/JavaScript, C/C++, C#, Java, PHP.
 
-Also work in machine learning (PyTorch, TensorFlow, graph neural networks), blockchain outside Rust (Solana, Substrate, NEAR), and Linux security/networking (Kali, Fedora, Arch).
+Also interested in machine learning and multi-chain blockchain development.
 
 Open to remote opportunities: [joshuaiska@gmail.com](mailto:joshuaiska@gmail.com)
