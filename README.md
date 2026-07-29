@@ -1,41 +1,18 @@
 # Joshua Isika
 
-Systems engineer based in Nairobi, Kenya. Most of my time these days goes into
-Rust — blockchains, TLS internals, and the low-level plumbing that most people
-never think about until it breaks.
+Software engineer based in Nairobi, Kenya, working in Rust — systems programming, embedded/IoT, and blockchain infrastructure.
 
-## What I'm working on
+Contributor to [rust-analyzer](https://github.com/rust-lang/rust-analyzer) and [rustls](https://github.com/rustls/rustls), the threshold-cryptography libraries maintained by [LFDT-Lockness](https://github.com/LFDT-Lockness) (`cggmp21`, `generic-ec`, `round-based`), and the [Linux Foundation Decentralized Trust Mentorship Program](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program).
 
-- **[kamichain](https://github.com/Joshuaisikah/kamichain)** — a proof-of-work
-  blockchain built from scratch: SHA-256 blocks, ed25519-signed transactions,
-  TCP peer gossip, longest-chain fork resolution, and a CLI to drive it.
-- **[tls-proxy](https://github.com/Joshuaisikah/tls-proxy)** — a MITM TLS proxy
-  written to learn rustls internals from the ground up, and to prototype
-  system-wide crypto policy integration on Fedora.
-- **[portfolio](https://joshuaisikah.github.io)** — my personal site, built
-  around live WebAssembly demos of the projects above instead of a static
-  resume.
-- **[programming-rust-journey](https://github.com/Joshuaisikah/programming-rust-journey)**
-  and **[rustaceans-odyssey](https://github.com/Joshuaisikah/rustaceans-odyssey)** —
-  where I work through Rust fundamentals and systems topics (async runtimes,
-  database engines, lock-free structures) as complete programs rather than
-  toy exercises.
-
-I also contribute to the threshold-cryptography libraries maintained by
-[LFDT-Lockness](https://github.com/LFDT-Lockness) (`cggmp21`, `generic-ec`,
-`round-based`), and to the
-[Linux Foundation Decentralized Trust Mentorship Program](https://github.com/LF-Decentralized-Trust-Mentorships/mentorship-program).
+Projects: [joshuaisikah.github.io](https://joshuaisikah.github.io)
 
 ## Background
 
 Languages: Rust, Python, TypeScript/JavaScript, C/C++, C#, Java, PHP.
 
-I also spend time in machine learning (PyTorch, TensorFlow, graph attention
-networks), blockchain work outside Rust (Solana, Substrate, NEAR), and
-networking/security on Linux (Kali, Fedora, Arch).
+Also work in machine learning (PyTorch, TensorFlow, graph neural networks), blockchain outside Rust (Solana, Substrate, NEAR), and Linux security/networking (Kali, Fedora, Arch).
 
-Open to remote opportunities — reach me at
-[joshuaiska@gmail.com](mailto:joshuaiska@gmail.com).
+Open to remote opportunities: [joshuaiska@gmail.com](mailto:joshuaiska@gmail.com)
 
 ---
 
